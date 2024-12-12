@@ -109,24 +109,3 @@ end
 
 person_one = Person.new('Alice', 123456789)
 ```
-
-# 01. COMMENTS
-- We use the `#` to tell the interpreter to ignore evertything after;
-- `#` are used to important notes and informations.
-```python
-# print hello world
-print("hello world")
-```
-## Docstring
-- Is a multi-line comment;
-- The interpreter reads this, different from the comments, but does nothing 
-- `"""` or `'''`
-```python
-"""
-I can use
-as a multi-line
-comment
-"""
-```
-
-# 02. PRINT FUNCTION
