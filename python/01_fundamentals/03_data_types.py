@@ -56,3 +56,17 @@ print(type(True))
 print(type(False))
 print(type(10 == 10))
 print(type(10 == 11))
+
+# Type conversion, typecasting, coercion
+# The act of converting one type into another
+# Immutable and primitive types:
+# str, int, float, bool - immutables
+# Tipagem fraca significa que a linguagem converte
+# um dos valores pra executar corretamente
+# Já a tipagem forte, resulta em um erro, pois
+# não converte
+# Tipagem dinâmica não exige a declaração do tipo do dado
+print(int('1'), type(int('1')))
+print(type(float('1') + 1))
+print(bool(' '))
+print(str(11) + 'b')
