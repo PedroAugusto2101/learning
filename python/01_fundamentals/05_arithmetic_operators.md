@@ -29,7 +29,7 @@ print('Multiplication:', multiplication)
 division = 10 / 3  # Result is a float
 print('Division:', division)
 
-floor_division = 10 // 3
+floor_division = 10 // 3 # int division, shows only the int part of the result
 print('Floor Division:', floor_division)
 
 exponentiation = 2 ** 10
