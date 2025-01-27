@@ -31,7 +31,7 @@ Bom dia 0-11, Boa tarde 12-17 e Boa noite 18-23.
 #         print("Bom noite!")
 
 # hour = input("Digite a hora atual: ")
-# time(hour)
+# time(hour))
 
 
 """
