@@ -92,3 +92,30 @@
 - **Analytics Engineer** - a professional who can analyze data and maintain data infrastructure;
 - **Data Architect** - designs ETL processes, similar to an engineer (who executes), but the architect focuses more on planning;
 - **RPA Architect** - specialized in automating company processes.
+
+# Data Science Project Implementation
+
+- Solving complex problems using:
+    - Application of statistical methods;
+    - Machine learning algorithms;
+    - Analytical techniques.
+- It is possible to use different techniques, tools, and strategies, but the overall process remains essentially the same;
+- This means that not all steps are always present in a project, and some steps may be skipped depending on the project requirements.
+- 7 core stages of a data science project:
+    1. Define the problem;
+    2. Collect and store data;
+    3. Data preprocessing and cleaning;
+    4. Exploratory data analysis (EDA);
+    5. Predictive/statistical modeling (ML);
+    6. Evaluation and testing;
+    7. Delivering results.
+
+# Problem Definition
+
+- We must first understand the business objective;
+- Then, we define the project objectives;
+- Identify research questions;
+- Analyze available data (if there is no data, it is necessary to obtain it before starting the project);
+- Define success metrics – to determine when success is achieved;
+- Project planning.
+
