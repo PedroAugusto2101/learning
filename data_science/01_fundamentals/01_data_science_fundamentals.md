@@ -1,121 +1,79 @@
-# Definition of Data Science
-
-- Interdisciplinary field (involves knowledge from other areas);
-- Uses methods, processes, algorithms, and systems to extract knowledge and insights from structured and unstructured data;
-- Uses techniques from statistics, machine learning, data analysis, and programming → to solve problems and support decision-making;
-- Aims to solve business problems;
-- The company needs raw material: data
-    - If there is not enough data to generate intelligent insights and analysis, data science cannot be applied.
-
-# Knowledge Areas
-
-- Mathematics and Statistics;
-    - Techniques and procedures for calculation, analysis, correlation, transformation, cleaning, and interpretation of data;
-- Computer Science;
-    - Computer programming, storage, parallel processing, and optimization of analysis process execution time;
-- Business Knowledge;
-    - The goal of data science is to solve business problems, and domain knowledge (business area) is essential to interpret data and analysis results.
-- In other words, data science uses automated methods (Computer Science) to analyze (Mathematics and Statistics) large amounts of data to extract knowledge (business areas) from them.
-
-# The Importance of Science in Data Science
-
-- The most important part of data science is science;
-- It involves applied techniques and scientific methods to solve problems using computing;
-- In data science, we work to solve business problems;
-- Keywords in data science:
-    - Problem Solving;
-    - Scientific Method;
-    - Mathematics;
-    - Statistics;
-    - Computing;
-    - Visualization;
-    - Data Engineering;
-    - Business Knowledge.
-
-# Data and Decision Making
-
-- Our primary goal in DS is to convert data into decisions, which then lead to actions;
-- Example:
-    - "Customers cancel their phone plans frequently within 2 to 3 months after signing up."
-    1. Data and Analysis - Collected data led to the conclusion that there is a trend among telecom customers to switch operators after the third customer service contact;
-    2. Decision - Executives decided, based on data, to review customer service processes;
-    3. Action - The company hires a consulting firm to provide specialized customer service training.
-- The main objective of Data Science → extract information from data and transform it into knowledge, which can then be used for decision-making.
-
-# The Data-Driven Process
-
-- Data-driven process → moving from raw data to action;
-- The first question is identifying the problem: "What happened?";
-- The next question comes after analyzing the data: "Why did it happen?";
-- The following question can be answered using machine learning: "Will it happen again?";
-- Then, we engage directly with managers: "What should be done?";
-- Finally, a decision is made, adding value to the company.
-
-# Ethics in Data Science
-
-- **Responsibility and Transparency**
-    - Data scientists should be transparent about the algorithms they use, explaining how data is collected and analyzed;
-    - Document the analysis process and provide clear justifications for decisions made.
-- **Fairness and Non-Discrimination**
-    - Avoid biases in data and algorithms that could lead to unfair decisions;
-    - Promote equal opportunities, ensuring that AI systems do not perpetuate existing inequalities.
-- **Informed Consent**
-    - Individuals should be informed about how their data will be used and give explicit consent for data collection and usage;
-    - Consent should be obtained clearly and understandably, without ambiguity.
-- **Beneficence and Non-Maleficence**
-    - Ensure that analyses bring benefits and avoid causing harm to individuals or groups involved;
-    - Consider social and ethical impacts of data-based analyses and decisions.
-
-# Privacy in Data Science
-
-- **Personal Data Protection**
-    - Personal data should be protected from unauthorized access, leaks, and other security risks;
-    - Anonymization and pseudonymization methods can be used to protect individuals' identities.
-- **Regulatory Compliance**
-    - Adherence to applicable privacy regulations, such as the General Data Protection Regulation (GDPR) in Europe and the General Data Protection Law (LGPD) in Brazil;
-    - Laws that establish clear guidelines for data collection, processing, storage, and sharing.
-- **Data Minimization**
-    - Avoid excessive data collection;
-    - Only collect the data necessary for a specific analysis.
-- **Data Subject Rights**
-    - Individuals have the right to access, correct, and delete their personal data;
-    - Easy means should be provided for individuals to exercise these rights.
-
-# Career Perspectives in Data Science
-
-- **Data Scientist** - focuses more on statistics and machine learning;
-- **Data Analyst** - entry-level role, focused on data visualization and analysis without heavy AI and statistical techniques;
-- **Data Engineer** - oriented toward data and technology infrastructure;
-- **Machine Learning Engineer** - focused on developing and deploying machine learning models;
-- **AI Engineer** - an advanced evolution of the data scientist, with enhanced artificial intelligence techniques;
-- **DataOps Engineer** - responsible for keeping everything running, a natural evolution of the data engineer;
-- **Analytics Engineer** - a professional who can analyze data and maintain data infrastructure;
-- **Data Architect** - designs ETL processes, similar to an engineer (who executes), but the architect focuses more on planning;
-- **RPA Architect** - specialized in automating company processes.
-
 # Data Science Project Implementation
 
 - Solving complex problems using:
     - Application of statistical methods;
     - Machine learning algorithms;
     - Analytical techniques.
-- It is possible to use different techniques, tools, and strategies, but the overall process remains essentially the same;
-- This means that not all steps are always present in a project, and some steps may be skipped depending on the project requirements.
+- Different techniques, tools, and strategies can be used, but the overall process remains essentially the same.
+- Not all stages are always present in a project; some steps may be skipped depending on the project's requirements.
 - 7 core stages of a data science project:
     1. Define the problem;
     2. Collect and store data;
-    3. Data preprocessing and cleaning;
-    4. Exploratory data analysis (EDA);
+    3. Data cleaning and preprocessing;
+    4. Exploratory Data Analysis (EDA);
     5. Predictive/statistical modeling (ML);
     6. Evaluation and testing;
     7. Delivering results.
 
 # Problem Definition
 
-- We must first understand the business objective;
-- Then, we define the project objectives;
-- Identify research questions;
-- Analyze available data (if there is no data, it is necessary to obtain it before starting the project);
-- Define success metrics – to determine when success is achieved;
-- Project planning.
+- First, we must understand the business objective in question.
+- Then, define the project's objectives.
+- Identify research questions.
+- Analyze available data (if data is not available, it must be gathered before starting the project).
+- Define success metrics to determine when the project has achieved its goal.
+- Plan the project accordingly.
 
+# Data Collection and Storage
+
+- Accurate data is the foundation for analysis and insights.
+- Stakeholder involvement is crucial for defining data requirements.
+- Various data collection methods:
+    - Surveys
+    - Interviews
+    - Observations
+    - Records
+    - APIs
+    - Public databases
+- Ensuring data quality is fundamental.
+- Data cleaning and validation techniques help maintain data integrity and accuracy.
+    - Data Scientists can process the data after retrieval.
+    - Data Engineers can pre-process data in data pipelines.
+- Efficient and secure data storage is crucial:
+    - Relational databases;
+    - Data lakes;
+    - Data warehouses.
+- Protecting data is essential:
+    - Implement security measures such as encryption, access control, and privacy policies.
+- Data collection and storage are typically the responsibility of Data Engineers, but understanding the process is valuable if no dedicated engineer is available.
+
+# Data Preparation and Cleaning
+
+- Data almost always requires cleaning and processing.
+- Preparation involves transforming raw data into a format suitable for analysis and modeling:
+    - Cleaning:
+        - Removing null values, duplicates, and inconsistencies.
+        - Normalizing and standardizing data.
+    - Transformation:
+        - Converting data into appropriate formats for analysis.
+        - Aggregation, encoding, and creating new variables.
+    - Integration/Combination:
+        - Merging data from different sources.
+        - ETL (Extract, Transform, Load) is frequently used to consolidate data from various systems.
+    - Encoding:
+        - Converting text variables into numerical values.
+        - Modifying data without altering its information content.
+    - Reduction:
+        - Reducing large and complex datasets while retaining the most relevant information.
+        - Feature selection - PCA (Principal Component Analysis) helps reduce complexity and improves analysis efficiency.
+- Data = raw material; Information = structured data; Knowledge = interpretation and application of information to generate value.
+
+# Exploratory Data Analysis (EDA)
+
+- Initial analysis of data to understand its characteristics and patterns.
+- Uses statistical and descriptive techniques, visualization tools, and identifies relationships between variables while detecting outliers.
+- Helps analysts and scientists formulate hypotheses, choose appropriate processing methods, and prevent errors.
+- Data visualization aids in preliminary analysis and generating insights.
+- Clear and informative visual representations facilitate understanding for non-technical stakeholders such as managers, directors, and executives.
+
+# Predictive/Statistical Modeling
