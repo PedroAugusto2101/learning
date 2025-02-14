@@ -138,3 +138,14 @@
 - **Tools:** Python (Scikit-learn, PyTorch, TensorFlow), R (caret, randomForest), Julia, Rust, C++, Java.
 - **Techniques:** Decision trees, random forests, deep learning, boosting, bagging, regression.
 
+# Evaluation and Testing
+
+Essential steps to ensure model reliability and performance.
+
+- **Evaluation Metrics:** Measures model performance (e.g., accuracy, precision, recall, RMSE).
+- **Cross-Validation:** Splits data into multiple training/testing sets to validate generalization.
+- **Overfitting & Underfitting:** Overfitting occurs when a model learns noise; underfitting happens when it oversimplifies patterns.
+- **Learning Curves:** Graphs showing model performance as training progresses, helping identify over/underfitting.
+- **Error Analysis (Residuals):** Examines the difference between predictions and actual values to detect patterns or biases.
+- **Benchmarking:** Compares model performance against existing solutions or baselines.
+
