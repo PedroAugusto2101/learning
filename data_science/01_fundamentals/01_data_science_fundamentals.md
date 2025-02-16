@@ -149,3 +149,30 @@ Essential steps to ensure model reliability and performance.
 - **Error Analysis (Residuals):** Examines the difference between predictions and actual values to detect patterns or biases.
 - **Benchmarking:** Compares model performance against existing solutions or baselines.
 
+# Delivering Results
+
+The format varies based on objectives and target audience. The deliverable is defined during the project planning phase.
+
+### Possible Deliverables:
+1. **Technical or Scientific Report** – Detailed documentation of methodology and findings.  
+2. **Executive Report** – High-level summary for decision-makers.  
+3. **Interactive Dashboard or Infographic** – Visual representation of insights with storytelling.  
+4. **Jupyter Notebook** – Code-based report with explanations and outputs.  
+5. **Source Code & Documentation** – Scripts and manuals for implementation.  
+6. **API (Application Programming Interface)** – Enables integration with other systems.  
+7. **Web Application for Model Deployment** – Provides a user-friendly interface for model interaction.  
+8. **ML Model Predictions in a CSV File** – Structured output for further analysis.  
+9. **ML Model Predictions in a Database** – Stores results for easy access and querying.  
+10. **Raw ML Model File** – Direct model file for reuse.  
+
+## 7 Key Steps in a Data Science Project
+
+1. **Problem Definition** – Understand objectives and expected outcomes.  
+2. **Data Collection & Storage** – Gather relevant data from various sources.  
+3. **Data Preparation & Cleaning** – Handle missing values, outliers, and formatting.  
+4. **Exploratory Data Analysis (EDA)** – Identify trends, patterns, and insights.  
+5. **Predictive/Statistical Modeling** – Train and optimize models.  
+6. **Evaluation & Testing** – Assess model performance and validate results.  
+7. **Delivering Results** – Present insights in a meaningful format.  
+
+
