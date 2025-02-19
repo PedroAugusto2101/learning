@@ -20,7 +20,7 @@
 
 ### Example Code:
 ```python
-# \r\n -> CRLF (used in Windows)
+## \r\n -> CRLF (used in Windows)
 # \n -> LF (used in Linux and macOS)
 print(12, 34, 1011, sep='-', end='\n##')  # Output: 12-34-1011##
 print(56, 78, sep='-', end='\n')          # Output: 56-78
