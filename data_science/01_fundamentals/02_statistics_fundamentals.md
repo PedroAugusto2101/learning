@@ -30,18 +30,76 @@
 - Uses a sample to make inferences about a population.  
 - Involves making predictions or conclusions about a population based on a sample.  
 
-# Fundamental Statistical Concepts - Overview
+# Fundamental Statistical Concepts
+
+## Overview
 
 - **Population**: The complete set of items or events of interest.  
 - **Sample**: A subset of the population.  
-- **Quantitative Variables**: Numeric variables representing measurements or counts.  
-- **Qualitative Variables**: Categorical variables that describe characteristics.  
+- **Quantitative Variables**: Numerical variables representing measurements or counts.  
+- **Qualitative Variables**: Categorical variables describing characteristics.  
 - **Correlation**: Measures the strength and direction of the relationship between two variables.  
-- **Regression**: Analyzes the relationship between a dependent variable and one or more independent variables.  
-- **Probability**: Quantifies uncertainty and serves as the foundation for inferential statistics.  
+- **Regression**: Analysis describing the relationship between a dependent variable and one or more independent variables.  
+- **Probability**: Quantifies uncertainty and is the foundation of inferential statistics.  
 
-# Fundamental Statistical Concepts - Population vs. Sample
+## Population vs. Sample
 
-- **Population**: The complete set of all individuals/elements sharing a common characteristic.  
-- **Sample**: A subset of the population selected for analysis to infer characteristics about the entire population.  
-  - Must be representative to ensure valid conclusions for the whole population.  
+- **Population**: The entire set of individuals/elements sharing a common characteristic.  
+- **Sample**: A subset selected for analysis to infer characteristics about the entire population.  
+  - Must be representative to ensure valid conclusions.  
+  - Sampling techniques are used to achieve representativeness.  
+- **Why not analyze the entire population?**  
+  - Cost  
+  - Time  
+  - Necessity  
+
+## Parameters vs. Statistics
+
+- **Parameters**: Characteristics of the population, calculated using population data.  
+- **Statistics**: Characteristics of the sample, calculated using sample data.  
+- **Example**:  
+  - Sample statistic: Percentage of people in a sample who prefer brand X shoes.  
+  - Population parameter: Estimated percentage of the entire population who prefer brand X shoes.  
+
+## Primary vs. Secondary Data
+
+- **Data vs. Information**:  
+  - **Data**: Collected values from observations or measurements.  
+    - Example: The number "23" (data).  
+  - **Information**: Processed data providing relevant insights.  
+    - Example: "23 years old" (information).  
+- **Data Sources**:  
+  - **Primary Data**: Collected by the analyst.  
+    - More reliable, greater control.  
+  - **Secondary Data**: Collected by third parties.  
+    - Less reliable, less control.  
+- **Most real-world data analysis relies on secondary data**, processed to generate valuable insights.  
+
+## Observations vs. Variables
+
+- **Observation**: A recorded instance of a dataset unit (e.g., a row in a table).  
+- **Variable**: A measured characteristic of a population or sample (e.g., a column in a table).  
+
+## Types of Variables
+
+- **Qualitative Variables** (Categorical):  
+  - **Nominal**: No specific order (e.g., profession, gender, religion).  
+  - **Ordinal**: Ordered categories (e.g., education level: high school, bachelor's, master's).  
+- **Quantitative Variables** (Numerical):  
+  - **Discrete**: Countable values (e.g., number of children, number of cars).  
+  - **Continuous**: Measurable values (e.g., height, weight, salary).  
+- **Example**:  
+  - "Age" as a number (11, 15, 18) → **Quantitative**.  
+  - "Age group" (0-5 years, 6-12 years) → **Qualitative (Ordinal)**.  
+- **Why classify variables correctly?**  
+  - Helps choose the appropriate statistical test.  
+  - May require transformations for machine learning models.  
+
+## Probability Theory
+
+- **Deals with quantifying uncertainty**, providing a mathematical framework to understand complex systems and random phenomena.  
+- **Key Concepts**:  
+  - **Random Experiment**: A process with an unpredictable outcome (e.g., flipping a coin, rolling a die).  
+  - **Sample Space**: The set of all possible outcomes (e.g., {heads, tails} for a coin flip).  
+  - **Event**: A subset of outcomes within the sample space.  
+    - Simple: Getting "heads
