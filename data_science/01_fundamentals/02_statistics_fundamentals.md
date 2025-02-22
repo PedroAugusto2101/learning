@@ -39,3 +39,9 @@
 - **Correlation**: Measures the strength and direction of the relationship between two variables.  
 - **Regression**: Analyzes the relationship between a dependent variable and one or more independent variables.  
 - **Probability**: Quantifies uncertainty and serves as the foundation for inferential statistics.  
+
+# Fundamental Statistical Concepts - Population vs. Sample
+
+- **Population**: The complete set of all individuals/elements sharing a common characteristic.  
+- **Sample**: A subset of the population selected for analysis to infer characteristics about the entire population.  
+  - Must be representative to ensure valid conclusions for the whole population.  
