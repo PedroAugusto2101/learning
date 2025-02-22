@@ -103,3 +103,13 @@
   - **Sample Space**: The set of all possible outcomes (e.g., {heads, tails} for a coin flip).  
   - **Event**: A subset of outcomes within the sample space.  
     - Simple: Getting "heads
+
+# Relationship Between Data Science and Statistics
+
+- **Statistics provides theoretical foundations**, while data science expands these foundations with new technologies and techniques to handle massive volumes of data.  
+- **Applications in Data Science:**  
+    1. **Data Exploration**  
+        - **EDA (Exploratory Data Analysis):** Understanding data structures, identifying patterns, and detecting anomalies.  
+    2. **Data-Driven Decision Making**  
+    3. **Complementary Skills**
+
