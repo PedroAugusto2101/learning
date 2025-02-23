@@ -148,4 +148,12 @@ The best approach is a structured and practical method, combining theory, hands-
 6. **Significance Level & P-Value** – The probability of rejecting H₀ when it is true.  
    - **P-value:** The probability of obtaining an extreme result under the assumption that H₀ is true.  
 
+## Importance of Statistical Inference  
 
+- Enables data scientists to generalize findings from samples to populations.  
+
+1. **Evidence-Based Decision Making**  
+2. **Reducing Uncertainty**  
+3. **Validating Hypotheses**  
+4. **Extrapolating Results**  
+5. **Applications in Machine Learning**  
