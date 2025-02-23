@@ -128,3 +128,24 @@ The best approach is a structured and practical method, combining theory, hands-
 7. **Specialization & Deepening** – Focus on advanced topics and niche areas.  
 8. **Continuous Practice & Updates** – Stay current with new methodologies and trends.  
 
+# Importance of Statistical Inference in Data Science Projects
+
+## What is Statistical Inference?
+
+- Uses sample data to draw conclusions about a population  
+- Helps scientists generalize findings to a broader population  
+- In summary: extracting conclusions from datasets  
+
+## Basic Principles of Statistical Inference
+
+1. **Understanding the Population & Sampling** – Identify the population of interest and collect a representative sample to ensure generalizable conclusions.  
+2. **Data Collection** – Gather sample data through experiments, surveys, or observational studies (sampling techniques).  
+3. **Exploratory Data Analysis (EDA)** – Analyze data structure, detect outliers, check normality, etc., before making inferences.  
+4. **Parameter Estimation** – Compute numerical measures summarizing population characteristics (mean, proportion, standard deviation, etc.). Use **point estimates** and **confidence intervals** derived from samples.  
+5. **Hypothesis Testing** – A method to make statistical inferences by generalizing from a sample to a population.  
+   - **Null Hypothesis (H₀):** Assumes no significant effect, difference, or relationship between variables. Any observed difference is due to randomness or sampling error.  
+   - **Alternative Hypothesis (H₁ or Hₐ):** Opposes the null hypothesis, suggesting a significant effect, difference, or relationship exists. Indicates observed variations result from a real phenomenon.  
+6. **Significance Level & P-Value** – The probability of rejecting H₀ when it is true.  
+   - **P-value:** The probability of obtaining an extreme result under the assumption that H₀ is true.  
+
+
