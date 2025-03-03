@@ -1,5 +1,4 @@
 # 5 Key Prerequisites for Applying Data Science  
----
 
 1. **Business Problem** → Data Science must address a real business challenge.  
 2. **Historical Data** → Without data, there is no Data Science.  
@@ -12,8 +11,8 @@
 - **Scalability** → Solutions should be designed to handle growing data volumes.  
 - **Ethical Concerns** → Responsible AI ensures fairness and transparency.  
 
+---
 # Where Can Data Science Be Applied? 
---- 
 
 Data Science can be applied to any field, as long as the key ingredient—data—is available. Essential conditions include:  
 - **Structured Data** → Data must follow identifiable patterns.  
@@ -36,8 +35,9 @@ Data Science can be applied to any field, as long as the key ingredient—data�
 ## Expanding Frontiers  
 Data Science is continuously evolving, integrating with AI, automation, and real-time analytics to enhance decision-making across industries. 
 
+--- 
 # Python and Essential Libraries  
----  
+ 
 
 Python is a **high-level, interpreted, general-purpose** programming language. It is widely used in Data Science due to:  
 - **Readability & Simplicity** → Easy-to-learn syntax.  
