@@ -123,4 +123,31 @@ WHERE data_venda BETWEEN '2024-01-01' AND '2025-12-31'
 GROUP BY dia;
 ```
 
+---
+# Understanding the Concept of Clusters  
+  
+A **computer cluster** is a group of interconnected computers working together as a **single system**. The goal is to improve **performance, availability, and scalability**.  
+
+## Types of Clusters  
+
+- **High-Performance Clusters (HPC)** → Provide massive computational power.  
+- **High-Availability Clusters (HA)** → Ensure continuous service availability.  
+- **Load Balancing Clusters** → Distribute workloads efficiently.  
+
+## Key Components  
+
+- **Nodes** → Individual computers, each with its own CPU, memory, and storage.  
+- **Interconnection Network** → Infrastructure that links nodes together.  
+- **Management Software** → Tools and operating systems that coordinate cluster operations.  
+
+## Applications of Clusters  
+
+- **Scientific Research**  
+- **Big Data Processing**  
+- **Financial Modeling**  
+- **Weather Simulations**  
+- **Graphics Rendering**  
+
+Clusters are essential in modern computing, **enhancing efficiency and reliability** across various industries.  
+
 
