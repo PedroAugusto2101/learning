@@ -97,9 +97,9 @@ R is a **software environment and programming language** designed for:
 ## Expanding R’s Role in Data Science  
 R continues to be a dominant tool in academia and industries requiring complex statistical analysis, offering robust libraries for specialized data science applications.  
 
+---  
 # SQL and Queries for Data Analysis  
 
----  
 **SQL (Structured Query Language)** is used to **manage and manipulate relational databases**. It is essential for:  
 - **Inserting, querying, updating, and managing data**.  
 - **Extracting insights from large datasets**.  
