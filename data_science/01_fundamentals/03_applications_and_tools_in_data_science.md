@@ -43,6 +43,7 @@ Python is a **high-level, interpreted, general-purpose** programming language. I
 - **Readability & Simplicity** → Easy-to-learn syntax.  
 - **Script-Based Execution** → Used for task automation rather than full software development.  
 - **Extensive Libraries & Community** → Supports a vast ecosystem for data analysis and machine learning.  
+- In Data Science, we don't create systems or softwares, we create scripts that executes actions inside a process. For example, load data, clean, process, train ML models and deliver result.
 
 ## Essential Libraries  
 
