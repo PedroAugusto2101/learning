@@ -165,4 +165,35 @@ Processing large-scale data requires robust frameworks and platforms to handle m
 - **Databricks** → Optimized Apache Spark environment with enhanced performance and scalability.
 - **Apache Kafka** → Distributed event streaming platform for real-time data processing.
 
+# Understanding the Concept of Data Lakes, Data Warehouses, and Data Lakehouses
+
+## Data Lake
+
+- **Centralized repository** for storing vast amounts of raw data.
+- Supports **structured and unstructured data** in its native format.
+- Used for **machine learning** and **predictive analytics**.
+- Data sources include **web scraping**, logs, and IoT devices.
+- Primarily designed for **storage**, not direct analysis.
+
+## Data Warehouse
+
+- Stores **structured data** that has been processed and organized.
+- Integrates data from multiple sources for business intelligence (BI).
+- Known as **BW** in SAP environments.
+- Supports **decision-making processes** through analytical insights.
+- Ensures **data integrity and consistency**, ideal for reporting and analysis.
+
+## Data Lakehouse
+
+- **Hybrid approach**, combining features of **Data Lakes** and **Data Warehouses**.
+- One of the main solutions in this category is **Snowflake**.
+- Offers the **flexibility** of a Data Lake with the **management and performance** of a Data Warehouse.
+
+## Choosing the Right Storage Solution
+
+- Most organizations use either a **Data Lake** or a **Data Warehouse**.
+- The choice depends on the **specific needs and capabilities** of each organization.
+- **Data Lakehouse** is part of the **Modern Data Stack**, a set of modern data tools and solutions.
+
+
 
