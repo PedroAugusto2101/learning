@@ -150,4 +150,19 @@ A **computer cluster** is a group of interconnected computers working together a
 
 Clusters are essential in modern computing, **enhancing efficiency and reliability** across various industries.  
 
+# Large-Scale Data Processing
+
+Processing large-scale data requires robust frameworks and platforms to handle massive volumes efficiently. Below are some of the most commonly used technologies:
+
+## Key Technologies
+
+- **Apache Hadoop** → Distributed storage and processing framework for big data.
+- **Apache Spark** → Fast, in-memory data processing engine for large-scale analytics.
+- **Google BigQuery** → Fully managed, serverless data warehouse for real-time analytics.
+- **Amazon Redshift** → Cloud-based data warehouse optimized for large datasets.
+- **Snowflake** → Scalable, cloud-native data platform for data storage and analytics.
+- **Microsoft Azure Synapse Analytics** → Formerly SQL Data Warehouse, designed for big data analytics and integration.
+- **Databricks** → Optimized Apache Spark environment with enhanced performance and scalability.
+- **Apache Kafka** → Distributed event streaming platform for real-time data processing.
+
 
