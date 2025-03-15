@@ -195,5 +195,12 @@ Processing large-scale data requires robust frameworks and platforms to handle m
 - The choice depends on the **specific needs and capabilities** of each organization.
 - **Data Lakehouse** is part of the **Modern Data Stack**, a set of modern data tools and solutions.
 
+# Data Science and ChatGPT
+
+- **Web interface** for an **LLM (Large Language Model)**, a category of **Generative AI**.
+- LLMs are built using **Deep Learning** with the **Transformer architecture**.
+- While AI models existed before ChatGPT, the **web interface** significantly boosted its popularity.
+- LLMs can generate **incorrect responses**, especially for users without domain knowledge to interpret the model's output correctly.
+
 
 
