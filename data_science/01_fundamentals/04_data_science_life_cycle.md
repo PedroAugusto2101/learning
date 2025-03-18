@@ -55,3 +55,10 @@
 - If deployment includes a **web application**, it should be treated as a **separate project**, as it requires additional expertise beyond the scope of a data scientist.
 
 ![img](../img/Screenshot%20from%202025-03-18%2007-10-46.png)
+
+# Communicating Results and Storytelling
+
+- **Technical skills** are essential, but **soft skills**, such as communication, are **indispensable** in data science.
+- Effective communication ensures that **results are understood** by stakeholders, including business teams and clients.
+- **Storytelling** is key: narrating the **entire process**, justifying **decisions**, and presenting **findings** in a compelling way.
+- Ideally, results should be communicated **within 15 minutes** to maintain engagement and avoid distractions.
