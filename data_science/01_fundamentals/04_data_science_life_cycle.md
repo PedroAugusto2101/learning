@@ -34,3 +34,11 @@
 - Different **versions of a model** can be created using techniques such as **hyperparameter optimization** and **cross-validation**.
 - Experimentation with various **algorithms** is conducted to achieve the **desired accuracy or performance metric**.
 - Iteration is common: revisiting previous steps like **data cleaning or exploratory analysis** may be necessary to improve results.
+
+## Model Evaluation
+
+- Crucial for determining the **accuracy and effectiveness** of the model in making predictions or classifications.
+- Each algorithm or approach requires **specific evaluation metrics** (e.g., accuracy, precision, recall, RMSE, etc.).
+- If performance is poor, it may be necessary to **reassess the business problem** or the **available data**.
+- Generally, as **data volume increases**, model performance tends to improve.
+- **Decision-making and justification** are key components of a data science project.
