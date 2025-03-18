@@ -27,3 +27,10 @@
 - **Statistical techniques** and **data visualization** are used to identify **trends, patterns, and anomalies**.
 - This step is crucial for **hypothesis formulation** and **modeling strategies**.
 - **Data visualization** plays a key role in uncovering insights and guiding decisions.
+
+## Predictive/Statistical Modeling
+
+- **Statistical models** or **machine learning algorithms** are developed and trained using **prepared data**.
+- Different **versions of a model** can be created using techniques such as **hyperparameter optimization** and **cross-validation**.
+- Experimentation with various **algorithms** is conducted to achieve the **desired accuracy or performance metric**.
+- Iteration is common: revisiting previous steps like **data cleaning or exploratory analysis** may be necessary to improve results.
