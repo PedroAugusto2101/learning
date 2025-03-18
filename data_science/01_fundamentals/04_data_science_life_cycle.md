@@ -20,3 +20,10 @@
 - Data is collected from **various sources**, both **internal and external**.
 - The preparation phase includes **data cleaning, processing, and transformation**.
 - This stage typically involves **data engineers** to ensure data quality and structure.
+
+## Data Exploration and Analysis
+
+- Raw data may lack **clear patterns**, requiring **exploratory data analysis (EDA)**.
+- **Statistical techniques** and **data visualization** are used to identify **trends, patterns, and anomalies**.
+- This step is crucial for **hypothesis formulation** and **modeling strategies**.
+- **Data visualization** plays a key role in uncovering insights and guiding decisions.
