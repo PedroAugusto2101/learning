@@ -42,3 +42,14 @@
 - If performance is poor, it may be necessary to **reassess the business problem** or the **available data**.
 - Generally, as **data volume increases**, model performance tends to improve.
 - **Decision-making and justification** are key components of a data science project.
+
+## Model Deployment and Implementation
+
+- Approved models are **deployed into production**.
+- Deployment may involve **integration with existing IT systems**, either in **cloud environments** or **on-premises** (local company network).
+- Models can be executed to generate **direct results**, which may be delivered through:
+  - An **API** exposing model predictions.
+  - Feeding **business intelligence tools** like Power BI.
+  - Other **automated data pipelines**.
+- The **deliverable is defined** in the initial **problem definition phase**.
+- If deployment includes a **web application**, it should be treated as a **separate project**, as it requires additional expertise beyond the scope of a data scientist.
