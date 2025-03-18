@@ -14,3 +14,9 @@
 - Although multiple problems can be tackled simultaneously, it is **not recommended**.
 - Clearly **identify the problem** and define **specific objectives**.
 - Always align the problem with the **company's strategic goals**.
+
+## Data Collection and Preparation
+
+- Data is collected from **various sources**, both **internal and external**.
+- The preparation phase includes **data cleaning, processing, and transformation**.
+- This stage typically involves **data engineers** to ensure data quality and structure.
