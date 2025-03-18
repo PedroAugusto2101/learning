@@ -53,3 +53,5 @@
   - Other **automated data pipelines**.
 - The **deliverable is defined** in the initial **problem definition phase**.
 - If deployment includes a **web application**, it should be treated as a **separate project**, as it requires additional expertise beyond the scope of a data scientist.
+
+![img](../img/Screenshot%20from%202025-03-18%2007-10-46.png)
