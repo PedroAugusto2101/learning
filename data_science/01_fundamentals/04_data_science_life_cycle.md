@@ -56,9 +56,21 @@
 
 ![img](../img/Screenshot%20from%202025-03-18%2007-10-46.png)
 
+---
 # Communicating Results and Storytelling
 
 - **Technical skills** are essential, but **soft skills**, such as communication, are **indispensable** in data science.
 - Effective communication ensures that **results are understood** by stakeholders, including business teams and clients.
 - **Storytelling** is key: narrating the **entire process**, justifying **decisions**, and presenting **findings** in a compelling way.
 - Ideally, results should be communicated **within 15 minutes** to maintain engagement and avoid distractions.
+
+---
+# Data Science Project Deliverables    
+
+## Types of Deliverables  
+
+- **Reports** → Summarized conclusions from a model presented in a structured report.  
+- **Charts and Dashboards** → Visual representation of results for better interpretation.  
+- **Statistical/Predictive Models** → In some cases, the model itself is the deliverable.  
+- **Insight Presentation** → A structured presentation focusing on insights derived from the models.  
+- **Recommendation System or Data App** → More complex; tools like Streamlit can be used to develop interactive applications.  
