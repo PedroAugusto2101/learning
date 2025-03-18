@@ -74,3 +74,10 @@
 - **Statistical/Predictive Models** → In some cases, the model itself is the deliverable.  
 - **Insight Presentation** → A structured presentation focusing on insights derived from the models.  
 - **Recommendation System or Data App** → More complex; tools like Streamlit can be used to develop interactive applications.  
+
+---  
+# Data-Driven Culture
+
+- Decision-making based on experience and assumptions is losing relevance.  
+- The current trend is **data-driven decision-making**, relying on facts and insights.  
+
