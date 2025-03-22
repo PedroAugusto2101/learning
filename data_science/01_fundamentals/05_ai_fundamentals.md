@@ -32,3 +32,32 @@
 - **Anomaly detection in financial transactions**  
 - **Sales forecasting**  
 - **Disease prediction**  
+
+---  
+# Artificial Intelligence (AI) vs Machine Learning (ML) vs Deep Learning (DL) vs Generative AI (GenAI)  
+
+## **Artificial Intelligence (AI)**  
+
+- Broad field in computer science focused on **creating intelligent systems** that simulate human cognitive abilities.  
+- Includes **rule-based systems, automation, and machine learning**.  
+
+## **Machine Learning (ML)**  
+
+- **Subset of AI** that enables systems to **learn from data** without being explicitly programmed.  
+- Uses **statistical models** and **algorithms** to detect patterns and make predictions.  
+- Example: Fraud detection in financial transactions.  
+
+## **Deep Learning (DL)**  
+
+- **Subset of ML**, based on **neural networks** with multiple layers (**deep neural networks**).  
+- Requires **large datasets** and **high computational power**.  
+- Excels in **image recognition, speech processing, and NLP (Natural Language Processing)**.  
+- Example: Facial recognition systems.  
+
+## **Generative AI (GenAI)**  
+
+- **Subset of DL**, specialized in **creating new content** (text, images, audio, code).  
+- Uses **transformer-based architectures** like **GPT (ChatGPT), DALL·E, Stable Diffusion**.  
+- Example: AI-generated art and text-based chatbots.  
+
+![img](../img/Screenshot%20from%202025-03-22%2013-21-51.png)
