@@ -61,3 +61,35 @@
 - Example: AI-generated art and text-based chatbots.  
 
 ![img](../img/Screenshot%20from%202025-03-22%2013-21-51.png)
+
+--- 
+# Main Categories of AI   
+
+## **Narrow AI (Weak AI)**  
+
+- Designed to perform a **specific task**.  
+- **Lacks consciousness** or understanding beyond its programmed functions.  
+- **All existing AI models today** fall under Narrow AI.  
+- Examples: **ChatGPT, image recognition, recommendation systems**.  
+
+## **General AI (Strong AI or AGI - Artificial General Intelligence)**  
+
+- **Theoretical AI** that would have the ability to **understand, learn, and apply knowledge** similarly to human intelligence.  
+- **Has not been developed yet**.  
+- **Ongoing research and debate** topic.  
+
+## **Multimodal Generative Models**  
+
+- **Not AGI**.  
+- **Combines multiple Narrow AI models** into a single solution.  
+- Example: AI models that process and generate **text, images, and audio simultaneously**.  
+
+---  
+# When Will We Have AGI?  
+
+- **AI requires a balance between hardware and software** to function properly.  
+- **With current software and hardware**, achieving AGI is **not yet possible**.  
+- A **new strategy** for AI model development would be necessary.  
+- **Hardware improvements** are also needed—currently, AI relies on **GPUs**, which are **expensive**.  
+
+
