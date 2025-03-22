@@ -92,4 +92,22 @@
 - A **new strategy** for AI model development would be necessary.  
 - **Hardware improvements** are also needed—currently, AI relies on **GPUs**, which are **expensive**.  
 
+---  
+# Common AI Techniques  
+
+## Machine Learning  
+- **Subfield of AI** that uses algorithms to **learn patterns** from data.  
+- Makes **predictions or decisions** without being explicitly programmed for each task.  
+- **Widely used in:** price prediction, classification, marketing, finance.  
+
+## Deep Learning  
+- **Subfield of Machine Learning** that uses **artificial neural networks** with multiple layers.  
+- Applied to **complex tasks** involving **large amounts of data**.  
+- **Examples:** computer vision, natural language processing (NLP).  
+
+## Reinforcement Learning  
+- **Subfield of AI** based on **trial-and-error learning**.  
+- The agent receives **rewards or penalties** based on its actions.  
+- The goal is to **maximize total rewards** over time.  
+- **Widely applied in:** robotics, gaming, control systems, trading bots.  
 
