@@ -152,5 +152,21 @@
 - **2009:** **GPUs gain prominence** in accelerating AI model training.  
   - **If Big Data was the fuel, GPUs were the ignition.**  
 
+## 2010-2020: Advanced AI and Practical Applications  
+- **2012:** The **AlexNet deep learning architecture (CNN - Convolutional Neural Network)** wins the **ImageNet** image recognition competition.  
+  - Demonstrates the power of **deep neural networks**.  
+- **2016:** **AlphaGo defeats the world champion of Go**, a game known for its **strategic complexity**.  
+- **2017:** The paper **"Attention is All You Need"** introduces a **new way to learn sequences** based on context.  
+  - Proposes the **Transformer architecture** and **Attention Mechanisms**, revolutionizing **natural language processing (NLP)**.  
+
+## 2020-2025: AI Evolution and Real-World Applications  
+- **2020:** Several models based on the **Transformer architecture** emerge, leading to a **new generation of AI systems**, including **GPT models**.  
+- **2021:** AI becomes **widely used across industries**, including **healthcare and finance**.  
+  - **Ethical concerns rise** regarding **privacy, bias, and job impact**.  
+- **2022:** **OpenAI launches ChatGPT**, showcasing the **power of Generative AI** (which existed before but gained global attention).  
+- **2023:** **Race to develop more powerful Large Language Models (LLMs)** intensifies.  
+- **2024:** **MetaAI releases the most powerful open-source LLM**, featuring **405 billion parameters**.  
+
+
 
 
