@@ -167,6 +167,9 @@
 - **2023:** **Race to develop more powerful Large Language Models (LLMs)** intensifies.  
 - **2024:** **MetaAI releases the most powerful open-source LLM**, featuring **405 billion parameters**.  
 
+---
+# IA and Data Science
 
+![img](../img/Screenshot%20from%202025-03-22%2013-21-51.png)
 
 
