@@ -171,5 +171,6 @@
 # IA and Data Science
 
 ![img](../img/Screenshot%20from%202025-03-25%2007-25-23.png)
+![img](../img/Screenshot%20from%202025-03-25%2007-27-36.png)
 
 
