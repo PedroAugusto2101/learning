@@ -134,4 +134,23 @@
   - **DENDRAL** (chemical analysis).  
   - **MYCIN** (medical diagnosis).  
 
+## 1980-1990: AI Revitalization  
+- **1986:** Development of the **backpropagation algorithm** for training neural networks.  
+  - Still used today in **Deep Learning** models, the leading AI strategy.  
+- **1987:** Second **AI funding crisis** due to the **failure of expert systems** to meet commercial expectations.  
+  - One key issue was the **lack of sufficient data** to support these systems.  
+
+## 1990-2000: AI in Everyday Life  
+- **1997:** **IBM's Deep Blue** defeats the world chess champion.  
+- **1999:** **Nvidia develops powerful GPUs (Graphics Processing Units)**, initially for rendering video games.  
+  - GPUs later became the **driving force of AI evolution** due to their ability to **parallelize matrix operations**, essential for **artificial neural networks**.  
+
+## 2000-2010: AI on the Internet, Big Data, and GPU Revolution  
+- **2005:** The term **Big Data** is defined for the first time.  
+  - Represents **large volumes of data** generated at **high speed and variety** → **fuel for AI**.  
+- **2006:** The term **"Deep Learning"** is introduced, demonstrating its potential in **pattern recognition**.  
+- **2009:** **GPUs gain prominence** in accelerating AI model training.  
+  - **If Big Data was the fuel, GPUs were the ignition.**  
+
+
 
