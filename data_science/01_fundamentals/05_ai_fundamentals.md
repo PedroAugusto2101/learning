@@ -109,5 +109,29 @@
 - **Subfield of AI** based on **trial-and-error learning**.  
 - The agent receives **rewards or penalties** based on its actions.  
 - The goal is to **maximize total rewards** over time.  
-- **Widely applied in:** robotics, gaming, control systems, trading bots.  
+- **Widely applied in:** robotics, gaming, control systems, trading bots.
+
+---  
+# History and Evolution of AI  
+
+## 1940-1950: First Mathematical Model  
+- **1943:** First **mathematical model** of a neural network.  
+- **1950:** **Turing Test** proposed to determine if a machine can exhibit intelligent behavior.  
+
+## 1950-1960: Early Steps and the Birth of AI  
+- **1956:** The term **"Artificial Intelligence"** was coined.  
+- **1957:** Introduction of the **Perceptron**, a supervised learning algorithm for neural networks.  
+- **1958:** **LISP** programming language developed, becoming fundamental for AI research.  
+
+## 1960-1970: Optimism and Early Systems  
+- **1965:** **ELIZA**, one of the first **natural language processing (NLP)** programs.  
+- **1969:** The book **"Perceptrons"** highlights the limitations of early neural networks, leading to decreased interest in the approach.  
+
+## 1970-1980: "AI Winter" and Expert Systems  
+- **1970:** First **AI funding crisis** due to **unfulfilled promises and technological limitations**.  
+- **1972:** Introduction of **Prolog**, a logic programming language.  
+- **1980:** Development of **expert systems**, such as:  
+  - **DENDRAL** (chemical analysis).  
+  - **MYCIN** (medical diagnosis).  
+
 
