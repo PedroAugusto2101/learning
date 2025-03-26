@@ -234,5 +234,22 @@ The combination of three key elements has propelled the rapid evolution of artif
 ## **Production Deployment**
 - Deploying an AI model **into production** requires expertise in **DataOps engineering**.
 - **DataOps engineers** manage **data pipelines, model deployment, monitoring, and optimization** to ensure AI solutions run efficiently at scale.
+  
+---
+# AI and Machine Learning
+
+## **What is Machine Learning?**
+- Machine Learning (ML) is based on the idea that **systems can improve their performance automatically** through experience.
+- It is a **subset of AI**, focusing on learning from data instead of being explicitly programmed for every task.
+- Instead of following fixed rules, ML uses **algorithms to detect patterns** and make decisions based on large datasets.
+
+## **Deep Learning: A Subfield of ML**
+- Deep Learning is a specialized branch of ML that uses **artificial neural networks** with **multiple layers**.
+- These networks can **model and understand complex data**, making them powerful for tasks such as **image recognition, natural language processing, and autonomous systems**.
+
+## **AI vs. Machine Learning**
+- **All ML applications are a form of AI**, but **not all AI applications rely on ML**.
+- AI includes **rule-based systems, symbolic AI, and heuristics**, while ML focuses on **data-driven learning and pattern recognition**.
+
 
 
