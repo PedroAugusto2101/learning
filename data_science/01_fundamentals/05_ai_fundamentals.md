@@ -251,5 +251,34 @@ The combination of three key elements has propelled the rapid evolution of artif
 - **All ML applications are a form of AI**, but **not all AI applications rely on ML**.
 - AI includes **rule-based systems, symbolic AI, and heuristics**, while ML focuses on **data-driven learning and pattern recognition**.
 
+---
+# AI and NLP (Natural Language Processing)
+
+## **What is NLP?**
+- NLP (Natural Language Processing) is a **specific subfield of AI**.
+- It focuses on enabling **computers to understand, interpret, and respond** to human language in a natural and useful way.
+- NLP involves various tasks and techniques that allow machines to process and analyze **large volumes of textual or spoken data**.
+
+## **Key NLP Techniques**
+- **Tokenization**: Splitting text into smaller units, such as words or phrases.
+- **Parsing (syntactic analysis)**: Determining the grammatical structure of a sentence.
+- **Semantic analysis**: Understanding the meaning of words and how they combine in specific contexts.
+- **Named Entity Recognition (NER)**: Identifying and classifying entities in text (e.g., names, locations, dates).
+- **Machine translation**: Automatically translating text between languages.
+- **Sentiment analysis**: Determining the attitude or emotion expressed in a text.
+- **Text summarization**: Creating concise summaries of long documents.
+- **Question answering**: Providing accurate answers to questions based on a given dataset or text.
+
+## **How AI is Used in NLP**
+NLP techniques are implemented using various AI approaches:
+- **Statistical models**: Use probability and inference to interpret and generate language.
+- **Machine Learning**: Algorithms that learn patterns from textual data, such as Support Vector Machines (SVM) and Decision Trees.
+- **Deep Learning**: Advanced neural networks, especially **Recurrent Neural Networks (RNNs) and Transformers**, which have demonstrated impressive performance in complex NLP tasks like machine translation and text generation.
+
+## **Advancements in NLP**
+- Recent breakthroughs in NLP have been driven by **large datasets and increased computational power**.
+- This has enabled the creation of **Large Language Models (LLMs)** like **GPT (Generative Pre-trained Transformer)**, which can generate coherent text and perform a wide range of language-related tasks with high accuracy.
+
+
 
 
