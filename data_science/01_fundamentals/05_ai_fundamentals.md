@@ -196,5 +196,22 @@ The combination of three key elements has propelled the rapid evolution of artif
 - **GPUs provide the computational power** to process this data quickly and efficiently.
 - This combination has fueled the **modern AI revolution**, enabling breakthroughs in fields like **computer vision, natural language processing, and robotics**.
 
+---
+# Algorithms and Heuristics
+
+## **Algorithms**
+- A **defined set of instructions** or rules that specify a sequence of operations.
+- Essentially, an **exact recipe** for solving a problem step by step.
+
+## **Heuristics**
+- **Practical and informal approaches** for problem-solving.
+- Do not guarantee an **exact solution**, but provide **fast and efficient** approximations.
+- Useful in **complex scenarios** where finding an exact solution is **impractical or impossible**.
+- Based on **experience, intuition, and rule-based decision-making**.
+
+### **Heuristics in AI**
+- Many **heuristic algorithms** are widely used in AI.
+- Popular frameworks like **TensorFlow** and **PyTorch** provide **pre-built heuristic-based algorithms** for optimization and decision-making.
+
 
 
