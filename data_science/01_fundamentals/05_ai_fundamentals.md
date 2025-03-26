@@ -213,5 +213,26 @@ The combination of three key elements has propelled the rapid evolution of artif
 - Many **heuristic algorithms** are widely used in AI.
 - Popular frameworks like **TensorFlow** and **PyTorch** provide **pre-built heuristic-based algorithms** for optimization and decision-making.
 
+---
+# AI Algorithms
+
+![img](../img/Screenshot%20from%202025-03-26%2006-54-10.png)
+
+## **What is an AI Algorithm?**
+- An **AI algorithm** is essentially a **mathematical computation** used for learning patterns and making predictions.
+- It follows a structured approach for **training models** and improving performance over time.
+
+## **Forward Propagation**
+- The **"forward pass"** in an artificial neural network.
+- This is where the **prediction** occurs, as data moves **forward** through the network layers.
+
+## **Backward Propagation (Backpropagation)**
+- The **"backward pass"** in neural networks.
+- This is where **learning** happens, adjusting model **weights (parameters)** to minimize errors.
+- Uses **differential calculus (derivatives)** to compute gradients and optimize the model.
+
+## **Production Deployment**
+- Deploying an AI model **into production** requires expertise in **DataOps engineering**.
+- **DataOps engineers** manage **data pipelines, model deployment, monitoring, and optimization** to ensure AI solutions run efficiently at scale.
 
 
