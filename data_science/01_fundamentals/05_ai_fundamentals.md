@@ -279,6 +279,38 @@ NLP techniques are implemented using various AI approaches:
 - Recent breakthroughs in NLP have been driven by **large datasets and increased computational power**.
 - This has enabled the creation of **Large Language Models (LLMs)** like **GPT (Generative Pre-trained Transformer)**, which can generate coherent text and perform a wide range of language-related tasks with high accuracy.
 
+---
+# AI and Computer Vision
+
+## **What is Computer Vision?**
+- Computer Vision is a **specific subfield of AI** focused on enabling **machines to interpret and understand visual data**.
+- It involves **creating algorithms and models** that allow computers to process and analyze images and videos in a way similar to how humans perceive and comprehend their surroundings.
+
+## **Key Computer Vision Tasks**
+- **Object detection**: Identifying and locating objects in images or videos.
+- **Image classification**: Categorizing images based on their content.
+- **Image segmentation**: Dividing an image into meaningful regions or objects.
+- **Facial recognition**: Identifying and verifying human faces.
+- **Object tracking**: Following objects across frames in a video.
+- **Action recognition**: Detecting and analyzing human activities.
+- **3D reconstruction**: Reconstructing 3D models from 2D images.
+
+## **Core Techniques in Computer Vision**
+- **Convolutional Neural Networks (CNNs)**: Capture **hierarchical spatial features** from images.
+- **Visual Transformers (ViTs)**: Apply **attention mechanisms**, originally designed for NLP, to images, allowing for long-range relationships between pixels.
+- **Pre-trained Models**: ResNet, VGG, and EfficientNet, trained on large datasets like **ImageNet**, are fine-tuned for specific tasks.
+
+## **Real-World Applications of Computer Vision**
+- **Autonomous vehicles**: Enabling self-driving cars to perceive their environment.
+- **Security & surveillance**: Enhancing facial recognition and anomaly detection.
+- **Healthcare**: Assisting in medical imaging diagnostics.
+- **Manufacturing**: Improving quality control through automated inspection.
+- **Agriculture**: Monitoring crop health using drone imagery.
+
+## **Conclusion**
+- **Computer Vision empowers machines** to interpret visual data **sophisticatedly**, driving advancements across multiple industries and improving **human-machine interactions**.
+
+
 
 
 
