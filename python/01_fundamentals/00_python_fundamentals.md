@@ -1,19 +1,28 @@
-# 00. CREATING PYTHON MODULES (*.py)
+# 00. CREATING PYTHON MODULES (\*.py)
+
 ## 00.00 Naming conventions
+
 ### Camel case 🐪
+
 - First letter lowercase
 - First letter of each new word uppercase
 - `thingsToDo` `finalValue`
-### Pascal case 🦎
+
+### Pascal case 🦎.
+
 - Also known as "upper camel case" or "capital case"
 - The first letter of each word is uppercase
 - `FriendsName` `FinalValue`
+
 ### Snake case 🐍
+
 - Also known as "underscore case"
 - Underline in place of space to separe words
 - When is all in upper case, is called "screaming snake case"
 - `friends_name` `final_value`
+
 ### Kebab case 🌯
+
 - Use dash to combine words
 - In upper case is "screaming kebab case"
 - `things-to-do` `final-value`
@@ -43,15 +52,15 @@ public class Person {
 - PascalCase for classes.
 
 ```javascript
-class BankClient {  
-    constructor(firstName, cpf) { 
-        this.firstName = firstName;
-        this.cpf = cpf;
-    }
+class BankClient {
+  constructor(firstName, cpf) {
+    this.firstName = firstName;
+    this.cpf = cpf;
+  }
 
-    displayFirstName(){
-        console.log(this.firstName);
-    }
+  displayFirstName() {
+    console.log(this.firstName);
+  }
 }
 
 var clientOne = new BankClient('Maria', 150);
