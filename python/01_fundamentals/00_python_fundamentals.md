@@ -140,3 +140,10 @@ person_one = Person.new('Alice', 123456789)
   - my_list.append()
   - my_text.upper()
   - my_array.reshape()
+
+## 03.00 Attributes:
+
+- Variavles associated with objects.
+- Store data relates to the object.
+- Examples:
+  - my_array.shape
