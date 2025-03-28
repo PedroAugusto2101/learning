@@ -118,3 +118,23 @@ end
 
 person_one = Person.new('Alice', 123456789)
 ```
+
+# 01. DIFFERENCE BETWEEN METHODS AND FUNCTIONS
+
+## 01.00 Functions:
+
+- Standalone blocks of code that perform specific tasks.
+- **Can be called independently**
+- Examples:
+  - print()
+  - len()
+  - np.linspace()
+
+## 01.00 Methods:
+
+- Functions **associated with objects**.
+- Called on an object and can **access/modify the object's data**.
+- Examples:
+  - my_list.append()
+  - my_text.upper()
+  - my_array.reshape()
