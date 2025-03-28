@@ -119,6 +119,8 @@ end
 person_one = Person.new('Alice', 123456789)
 ```
 
+---
+
 # 01. DIFFERENCE BETWEEN METHODS AND FUNCTIONS
 
 ## 01.00 Functions:
@@ -130,7 +132,7 @@ person_one = Person.new('Alice', 123456789)
   - len()
   - np.linspace()
 
-## 01.00 Methods:
+## 02.00 Methods:
 
 - Functions **associated with objects**.
 - Called on an object and can **access/modify the object's data**.
