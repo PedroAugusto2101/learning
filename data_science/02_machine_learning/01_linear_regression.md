@@ -13,6 +13,8 @@
 
 - The simplest example of **linear regression** is **finding the regression curve** for **two data points**.
 - The goal is to **draw a line that best fits the points**.
+- Linear regression is a method to find the best-fit straight line through a set of data points to predict values.
+  - Example: Predicting someone's height based on their age using a straight line.
 
 ## **Least Squares Method**
 
