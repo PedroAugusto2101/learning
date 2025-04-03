@@ -30,6 +30,8 @@
 - Example: **Disease testing** scenario
   ![img](../img/Screenshot%20from%202025-04-01%2016-41-46.png)
 
+  ![img](../img/Screenshot%20from%202025-04-03%2010-56-46.png)
+
 | Actual \ Predicted | No (0) | Yes (1) |
 | ------------------ | ------ | ------- |
 | **No (0)**         | TN     | FP      |
