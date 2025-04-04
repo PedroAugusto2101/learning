@@ -22,6 +22,7 @@
   - "casa vermelha" → (vermelha, azul, casa) → (1, 0, 1)
 
 - Use **Cosine Similarity** to measure similarity between document vectors.
+  ![image.png](../img/Screenshot%20from%202025-04-04%2018-09-46.png)
 
 ## 🔹 TF-IDF (Term Frequency – Inverse Document Frequency)
 
@@ -44,3 +45,5 @@
 ```math
 TF-IDF(d, t) = TF(d, t) * log(D / T)
 ```
+
+![image.png](../img/Screenshot%20from%202025-04-04%2018-10-46.png)
