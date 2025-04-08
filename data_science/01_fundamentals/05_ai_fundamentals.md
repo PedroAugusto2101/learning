@@ -394,4 +394,32 @@ NLP techniques are implemented using various AI approaches:
 - Automation can lead to **job displacement** in certain sectors.
 - Important to promote **reskilling**, **upskilling**, and **equitable transition** to AI-integrated workflows.
 
-📌 Ethical AI = **Responsible development + Social awareness + Transparent governance**
+## 6. Safety and Robustness
+
+- AI systems must be **resilient to failures, attacks and errors**.
+- Important in **critical applications** (healthcare, autonomous vehicles, finance).
+- Includes testing, validation, and continuous monitoring.
+
+## 7. Autonomous Decision-Making
+
+- AI systems making **decisions without human input** raise ethical concerns.
+- Must define **boundaries of autonomy** and include **human-in-the-loop** where necessary.
+- Especially relevant in **life-critical** or **legal** scenarios.
+
+## 8. Access and Justice
+
+- Unequal access to AI can **exacerbate social inequalities**.
+- Fairness requires promoting **inclusive AI** that serves all communities.
+- Includes issues like **language, infrastructure, and education gaps**.
+
+## 9. Environmental Impact
+
+- Large AI models consume **massive energy** for training/inference.
+- Raises concerns about **carbon footprint** and **resource usage**.
+- Calls for **sustainable AI practices**, like efficient models and green data centers.
+
+## 10. Military and Surveillance Use
+
+- AI used in **autonomous weapons**, **surveillance systems**, and **cyberwarfare**.
+- Raises deep ethical dilemmas about **lethal decision-making** and **mass monitoring**.
+- Demands **strict regulation** and **international agreements** to prevent misuse.
