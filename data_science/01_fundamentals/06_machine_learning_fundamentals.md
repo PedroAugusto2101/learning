@@ -15,3 +15,42 @@
 - This is achieved through **math + programming**, the languages we use to communicate with computers.
 - Strong foundations in **math** and **coding** are crucial to mastering ML.
 - ML is a method of **data analysis** that automates building **analytical models** to find hidden patterns without being explicitly programmed for a specific task.
+
+---
+
+# Data Science vs. Machine Learning
+
+## 🔗 Relationship
+
+- **Closely related fields**, but not the same.
+- **Data Science** is a broad field focused on **collecting, processing, analyzing, and interpreting** large volumes of data to extract insights and knowledge.
+- **Machine Learning (ML)** is a subfield of AI that focuses on **developing algorithms and models** that learn from data to make predictions or decisions.
+- ML provides the **tools and techniques** for **predictive analysis** and **pattern discovery** within Data Science.
+- 👉 Every ML project is a **Data Science** project, but **not every** Data Science project involves ML.
+
+---
+
+# Types of Machine Learning
+
+## ✅ Supervised Learning
+
+- Algorithm is trained on **labeled data** (inputs and outputs are known).
+- Goal: **learn a function** to map inputs to outputs and predict new data.
+- All models make errors — the goal is to minimize the error.
+- **Examples**: Linear Regression, Decision Tree Classifiers.
+  ![img](../img/Screenshot%20from%202025-04-08%2021-43-46.png)
+
+## 🔍 Unsupervised Learning
+
+- Algorithm is trained on **unlabeled data** (no predefined output).
+- Goal: identify **hidden patterns or structures** (e.g., clusters or dimensionality reduction).
+- Can be used to label data first, then apply supervised models.
+- **Examples**: Clustering (e.g., K-Means), Principal Component Analysis (PCA).
+  ![img](../img/Screenshot%20from%202025-04-08%2021-44-46.png)
+
+## 🎮 Reinforcement Learning
+
+- Agent learns by interacting with an environment, receiving **rewards or punishments**.
+- Goal: **maximize cumulative reward** over time.
+- **Examples**: Board games, robotic control, process optimization, trading bots.
+  ![img](../img/Screenshot%20from%202025-04-08%2021-45-46.png)
