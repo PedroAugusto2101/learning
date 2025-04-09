@@ -54,3 +54,39 @@
 - Goal: **maximize cumulative reward** over time.
 - **Examples**: Board games, robotic control, process optimization, trading bots.
   ![img](../img/Screenshot%20from%202025-04-08%2021-45-46.png)
+
+---
+
+# Supervised Learning
+
+## 🔢 Regression
+
+- Supervised learning technique used to **predict continuous values**.
+- Goal: model the relationship between a **dependent variable (y)** and one or more **independent variables (x)**.
+- When predicting multiple targets → **multi-target regression**.
+- **Examples**: Predicting house prices (based on size, location, etc.), forecasting temperature from historical data.
+  ![img](../img/Screenshot%20from%202025-04-09%2007-36-46.png)
+
+## 🏷️ Classification
+
+- Also supervised learning, but used to **predict categories or classes**.
+- Goal: map inputs to one or more **discrete categories**.
+- Summary: if you want to predict a **number**, use **regression**; if you want to predict a **class**, use **classification**.
+- **Examples**: Spam detection, medical diagnosis (e.g., disease prediction).
+  ![img](../img/Screenshot%20from%202025-04-09%2007-37-46.png)
+
+---
+
+# Unsupervised Learning
+
+## 🔗 Clustering
+
+- Unsupervised learning technique that **groups similar data points** together.
+- Goal: discover hidden **patterns or structures** in the data.
+- Common algorithm: **K-Means**, which assigns data points to clusters based on proximity to centroids.
+- **Examples**: Market segmentation, customer behavior analysis, anomaly detection.
+  ![img](../img/Screenshot%20from%202025-04-09%2007-38-46.png)
+
+> Uses computational processing to perform clustering (e.g., customer segmentation).
+
+![img](../img/Screenshot%20from%202025-04-09%2007-39-46.png)
