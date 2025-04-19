@@ -105,3 +105,17 @@
 - **Feature Transformation** – modifying features (e.g., normalization, log-transform).
 - **Feature Creation** – deriving new features (e.g., ratios, interactions).
 - **Categorical Feature Encoding** – converting categories into numerical format (e.g., one-hot, label encoding).
+
+---
+
+# Machine Learning Pipeline
+
+1. **Problem Definition** – Clearly understand what needs to be solved.
+2. **Data Collection & Exploration** – Gather and explore available data.
+3. **Preprocessing** – Clean, transform, and prepare data.
+4. **Model Training** – Apply ML algorithms to learn patterns from the data.
+5. **Hyperparameter Tuning** – Adjust model parameters to improve performance.
+6. **Model Evaluation** – Assess performance using suitable metrics.
+7. **Model Selection** – Choose the best-performing model.
+8. **Testing & Versioning** – Validate with unseen data and track versions.
+9. **Deployment** – Deploy the model to production for real-world usage.
