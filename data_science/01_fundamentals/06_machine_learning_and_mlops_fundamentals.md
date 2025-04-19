@@ -85,8 +85,23 @@
 - Goal: discover hidden **patterns or structures** in the data.
 - Common algorithm: **K-Means**, which assigns data points to clusters based on proximity to centroids.
 - **Examples**: Market segmentation, customer behavior analysis, anomaly detection.
-  ![img](../img/Screenshot%20from%202025-04-09%2007-38-46.png)
+
+![img](../img/Screenshot%20from%202025-04-09%2007-38-46.png)
 
 > Uses computational processing to perform clustering (e.g., customer segmentation).
 
 ![img](../img/Screenshot%20from%202025-04-09%2007-39-46.png)
+
+---
+
+# Feature Engineering
+
+- Process of using **domain knowledge** to create new features that **enhance model performance**.
+- Involves **transforming**, **combining**, and **creating new features** from existing ones to provide more relevant information to the model.
+
+## 🔧 Common activities:
+
+- **Feature Selection** – choosing the most relevant variables.
+- **Feature Transformation** – modifying features (e.g., normalization, log-transform).
+- **Feature Creation** – deriving new features (e.g., ratios, interactions).
+- **Categorical Feature Encoding** – converting categories into numerical format (e.g., one-hot, label encoding).
