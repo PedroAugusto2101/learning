@@ -148,3 +148,35 @@ It spans from **model development** to **deployment and continuous monitoring** 
 - **ML Pipeline Automation** – End-to-end automation of the ML workflow.
 - **Governance & Compliance** – Ensuring auditability, fairness, and accountability.
 - **Collaboration & Reproducibility** – Enabling teamwork and repeatable experiments.
+
+---
+
+# Model Monitoring and Maintenance
+
+Monitoring and maintaining ML models in production is essential to ensure they remain **accurate**, **reliable**, and **efficient** over time.
+
+## Why is it Important?
+
+- Models may experience **performance degradation** due to:
+  - Changes in data distribution (data drift)
+  - New patterns not seen during training (concept drift)
+  - External changes (seasonality, behavior shifts, etc.)
+
+## Key Activities
+
+- **Continuous Performance Tracking**:
+  - Monitor metrics like **accuracy**, **precision**, **recall**, and **F1-score**
+  - Detect **anomalies**, **data drift**, and **concept drift**
+- **Model Updating**:
+
+  - **Re-training** models on new data
+  - **Updating training datasets**
+  - **Hyperparameter tuning** to adapt to new patterns
+
+- **Version Control and Documentation**:
+  - Keep detailed records of model versions, configurations, and performance over time
+  - Ensure **reproducibility** and **auditability** for all model updates
+
+## Goal
+
+Adapt the model to changing data and maintain high performance in real-world scenarios.
