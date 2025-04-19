@@ -110,6 +110,8 @@
 
 # Machine Learning Pipeline
 
+![img](../img/Screenshot%20from%202025-04-19%2020-18-02.png)
+
 1. **Problem Definition** – Clearly understand what needs to be solved.
 2. **Data Collection & Exploration** – Gather and explore available data.
 3. **Preprocessing** – Clean, transform, and prepare data.
@@ -119,3 +121,30 @@
 7. **Model Selection** – Choose the best-performing model.
 8. **Testing & Versioning** – Validate with unseen data and track versions.
 9. **Deployment** – Deploy the model to production for real-world usage.
+
+---
+
+# MLOps – Operationalizing Machine Learning
+
+As organizations mature in their machine learning (ML) practices, they begin to automate and streamline the ML lifecycle — this is the foundation of **MLOps**.
+
+Inspired by **DevOps** in software development, MLOps aims to manage the end-to-end ML workflow efficiently and at scale.
+
+![MLOps Lifecycle](../img/Screenshot%20from%202025-04-19%2020-08-31.png)
+
+## What is MLOps?
+
+MLOps (Machine Learning Operations) is a set of practices that combines ML and DevOps to **automate, monitor, and manage** the lifecycle of ML models.
+
+It spans from **model development** to **deployment and continuous monitoring** in production.
+
+## Core Components of MLOps:
+
+- **Model Development & Training** – Data preparation, feature engineering, and model building.
+- **Continuous Integration (CI)** – Automated testing and validation of code and models.
+- **Continuous Deployment (CD)** – Automating deployment to staging/production environments.
+- **Model Monitoring & Management** – Track performance and detect model drift.
+- **Data Management** – Versioning, lineage, and quality checks.
+- **ML Pipeline Automation** – End-to-end automation of the ML workflow.
+- **Governance & Compliance** – Ensuring auditability, fairness, and accountability.
+- **Collaboration & Reproducibility** – Enabling teamwork and repeatable experiments.
