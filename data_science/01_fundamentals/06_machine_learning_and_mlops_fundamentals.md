@@ -180,3 +180,40 @@ Monitoring and maintaining ML models in production is essential to ensure they r
 ## Goal
 
 Adapt the model to changing data and maintain high performance in real-world scenarios.
+
+---
+
+# MLOps Tools and Frameworks
+
+MLOps relies on a set of tools and frameworks to streamline the **development**, **deployment**, and **management** of ML models.
+
+## Key Tools
+
+1. **MLflow**
+
+   - Open-source platform to manage the ML lifecycle.
+   - Tracks experiments, manages models, and facilitates deployment.
+   - Components: Tracking, Projects, Models, Registry.
+
+2. **Kubeflow**
+
+   - ML toolkit for Kubernetes.
+   - Enables scalable ML pipelines, experiment tracking, and model serving.
+
+3. **TensorFlow Extended (TFX)**
+
+   - End-to-end platform for deploying production ML pipelines using TensorFlow.
+   - Includes components like data validation, transformation, and model analysis.
+
+4. **Apache Airflow**
+
+   - Workflow orchestration tool.
+   - Schedules and manages data pipelines and ML workflows.
+
+5. **Data Version Control (DVC)**
+   - Version control system for machine learning projects.
+   - Tracks data, models, and experiments—integrates with Git.
+
+## Purpose
+
+These tools support **automation**, **scalability**, **versioning**, and **collaboration**, making it easier to manage ML systems in production environments.
