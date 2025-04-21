@@ -71,3 +71,26 @@ The Deep Learning revolution began around **2012**, when neural networks started
 3. **Advances in algorithms and architectures**
 
 > The most advanced AI models today are based on **deep learning**.
+
+---
+
+# Transfer Learning
+
+Transfer learning is a technique in **machine learning**, especially popular in **deep learning**, where a model trained on one task is **reused** as the starting point for a different but related task.
+
+## Key Points
+
+- Uses **pre-trained models** that are adapted to a **new task**.
+- Especially useful when the **new dataset is limited**.
+- Leverages knowledge learned from a **large dataset** to improve performance on a smaller one.
+- Common in tasks like **image classification**, **NLP**, and **speech recognition**.
+
+## Advantages
+
+- **Reduces training time**.
+- **Requires less data**.
+- Improves performance when there's **limited computational resources**.
+  ![img](../img/Screenshot%20from%202025-04-21%2014-55-54.png)
+  ![img](../img/Screenshot%20from%202025-04-21%2014-56-48.png)
+
+> Transfer learning enables faster and more efficient development of ML models by reusing what has already been learned.
