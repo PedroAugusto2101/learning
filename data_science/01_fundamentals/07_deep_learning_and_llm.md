@@ -176,3 +176,36 @@ LLMs operate in **three main stages**:
   - Sentiment classification
   - And more
 - Due to their **size and complexity**, these models can generate **high-quality, human-like text**.
+
+---
+
+# Retrieval Augmented Generation (RAG) and GraphRAG
+
+## Limitations of LLMs
+
+- LLMs can only generate responses based on **the data they were trained on**.
+- They lack knowledge of **external or updated content**, such as internal company documents, contracts, spreadsheets, databases, etc.
+
+## What is RAG?
+
+- **Retrieval Augmented Generation (RAG)** is a technique that combines:
+  - **Language models** (like LLMs)
+  - With **information retrieval systems**
+- It allows LLMs to **access external knowledge bases** and generate more relevant and up-to-date responses.
+- Useful when context is **dynamic** or **not included in the training data**.
+  ![img](../img/Screenshot%20from%202025-04-21%2017-15-52.png)
+
+## What is GraphRAG?
+
+- **GraphRAG** extends RAG by incorporating **graph structures** for information retrieval.
+- It organizes and accesses data **more efficiently** by capturing **relationships between entities**.
+- Improves:
+  - **Contextualization**
+  - **Response quality**
+  - **Interpretability**
+- Instead of relying only on text documents or traditional databases, GraphRAG uses **knowledge graphs** for better semantic representation.
+
+## Use Case Example:
+
+- Internal documents (e.g., contracts, spreadsheets) → chunked and embedded → stored in a **graph or vector database**
+- On user query: relevant chunks are retrieved → passed as context to LLM → LLM generates a **contextualized and accurate** answer
