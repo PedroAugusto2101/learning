@@ -94,3 +94,38 @@ Transfer learning is a technique in **machine learning**, especially popular in 
   ![img](../img/Screenshot%20from%202025-04-21%2014-56-48.png)
 
 > Transfer learning enables faster and more efficient development of ML models by reusing what has already been learned.
+
+---
+
+# Transformers
+
+Transformers are a **neural network architecture** introduced in the paper _"Attention is All You Need"_, which revolutionized **natural language processing (NLP)** and other deep learning fields by replacing recurrent and convolutional networks with a **self-attention mechanism**.
+![img](../img/Screenshot%20from%202025-04-21%2015-03-27.png)
+
+## Key Features
+
+- **Self-Attention**: Allows the model to evaluate the importance of each part of the input sequence in relation to the others.
+- Processes sequences **in parallel**, unlike RNNs which are sequential.
+- Enables capturing **long-range dependencies** in data.
+
+## Architecture
+
+![img](../img/Screenshot%20from%202025-04-21%2015-06-13.png)
+
+- **Encoder**: Takes the input sequence and creates a contextual representation.
+- **Decoder**: Generates the output sequence (e.g., translation or summary) based on the encoder's representation.
+- **Multi-Head Attention**: Multiple attention mechanisms run in parallel, focusing on different parts of the sequence simultaneously.
+- Highly **parallelizable**, making it efficient for **GPU training**.
+
+## Impact
+
+- Became the foundation of state-of-the-art models like:
+  - **BERT**
+  - **GPT**
+  - **T5**
+- Widely used in:
+  - **NLP**
+  - **Computer Vision** (e.g., Vision Transformer)
+  - **Time Series Analysis** (e.g., Temporal Fusion Transformer)
+
+> Transformers are the backbone of modern AI, offering flexibility, scalability, and superior performance across multiple domains.
