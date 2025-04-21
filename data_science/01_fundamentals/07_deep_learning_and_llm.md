@@ -129,3 +129,50 @@ Transformers are a **neural network architecture** introduced in the paper _"Att
   - **Time Series Analysis** (e.g., Temporal Fusion Transformer)
 
 > Transformers are the backbone of modern AI, offering flexibility, scalability, and superior performance across multiple domains.
+
+---
+
+# Large Language Models (LLMs)
+
+LLMs (Large Language Models) are **generative AI models** capable of producing human-like text. ChatGPT, for example, is an interface that allows users to interact with such a model.
+![img](../img/Screenshot%20from%202025-04-21%2016-40-53.png)
+
+## Characteristics
+
+- Based on **deep learning architectures**, typically using **billions or even trillions of parameters**.
+- Trained on **large-scale text corpora** covering a wide range of topics, styles, and contexts.
+- Can **understand and generate coherent, contextually relevant text**.
+- Extremely versatile for a variety of **natural language processing (NLP)** tasks.
+
+## Architecture
+
+- Typically built on the **Transformer** architecture, introduced by the paper _"Attention is All You Need"_.
+- Leverages **attention mechanisms** to process text **non-sequentially**, capturing long-term dependencies efficiently.
+
+> LLMs represent a major leap in NLP, enabling tasks such as summarization, translation, question answering, and conversational AI.
+
+## Training and Fine-Tuning of LLMs
+
+LLMs operate in **three main stages**:
+
+### 1. Pre-training
+
+- The model is trained on a **large corpus of text** (books, articles, websites, etc.).
+- It learns to **predict the next word** in a sentence or to **fill in missing words**, capturing **grammatical, semantic, and contextual patterns**.
+- This phase is **unsupervised**, using massive amounts of data to develop general language understanding.
+
+### 2. Fine-tuning
+
+- After pre-training, the model is fine-tuned on **task-specific datasets** (e.g., translation, summarization, sentiment analysis, code generation).
+- This phase is **supervised**, using labeled data to adapt the model for **specific use cases**.
+- Fine-tuning is a form of **transfer learning**.
+
+### 3. Inference (Text Generation and NLP Tasks)
+
+- Once trained, the LLM can perform a variety of **natural language processing tasks**:
+  - Text generation from prompts
+  - Question answering
+  - Translation
+  - Sentiment classification
+  - And more
+- Due to their **size and complexity**, these models can generate **high-quality, human-like text**.
