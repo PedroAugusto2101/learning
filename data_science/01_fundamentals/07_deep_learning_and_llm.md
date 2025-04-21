@@ -46,3 +46,28 @@ A simplified structure of a mathematical neuron involves:
 - Delivers **human-like responses** due to the scale and richness of training data.
 
 > AI does not exist without data — a data strategy is essential before building an AI strategy.
+
+---
+
+# Deep Learning and the AI Revolution
+
+Deep Learning is a **subfield of Machine Learning** that uses **artificial neural networks** inspired by the human brain to process and interpret large volumes of data.
+
+## Key Points
+
+- **Deep Learning requires a large amount of data**, which demands proper infrastructure: data pipelines, storage, architecture, etc.
+- Networks are composed of **multiple layers of artificial neurons**, organized hierarchically.
+- As data flows through these layers, the model learns increasingly **complex representations**.
+- Ideal for **data with complex relationships**, such as **text**, **images**, and **audio**.
+
+## The AI Revolution
+
+The Deep Learning revolution began around **2012**, when neural networks started to outperform traditional methods in pattern recognition tasks.
+
+### This breakthrough was driven by:
+
+1. **Increased computational power** (e.g., GPUs)
+2. **Availability of large datasets**
+3. **Advances in algorithms and architectures**
+
+> The most advanced AI models today are based on **deep learning**.
