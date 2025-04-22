@@ -237,3 +237,5 @@ RAG architecture can be understood in **two main components**:
 
 - In modern RAG systems, **vector databases** (like FAISS, Pinecone, Weaviate, Qdrant) are commonly used for efficient **similarity search**.
 - Text is embedded into **high-dimensional vectors**, and user queries are matched against this vector space to retrieve the most relevant content.
+
+![img](../img/Screenshot%20from%202025-04-22%2019-40-52.png)
