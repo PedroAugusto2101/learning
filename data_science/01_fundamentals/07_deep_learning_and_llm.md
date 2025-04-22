@@ -209,3 +209,31 @@ LLMs operate in **three main stages**:
 
 - Internal documents (e.g., contracts, spreadsheets) → chunked and embedded → stored in a **graph or vector database**
 - On user query: relevant chunks are retrieved → passed as context to LLM → LLM generates a **contextualized and accurate** answer
+
+## Retrieval Augmented Generation (RAG) and Vector Databases
+
+### RAG Architecture
+
+RAG architecture can be understood in **two main components**:
+
+#### 1. Information Retrieval
+
+- Before generating a response, the model **consults an external database or document index**.
+- Techniques used for retrieval include:
+  - **TF-IDF**
+  - **BM25**
+  - **Embeddings** from neural networks
+- The goal is to find the **most relevant texts** based on the prompt or query.
+
+#### 2. Response Generation
+
+- After retrieving relevant documents, the **language model (LLM)** uses them as **additional context**.
+- This allows the LLM to generate **more accurate and informed responses**, even including:
+  - Factual data
+  - Citations
+  - Information not seen during pre-training
+
+### Role of Vector Databases
+
+- In modern RAG systems, **vector databases** (like FAISS, Pinecone, Weaviate, Qdrant) are commonly used for efficient **similarity search**.
+- Text is embedded into **high-dimensional vectors**, and user queries are matched against this vector space to retrieve the most relevant content.
