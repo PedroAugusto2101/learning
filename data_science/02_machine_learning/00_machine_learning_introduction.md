@@ -4,6 +4,9 @@
 
 - A **data analysis method** that **automates model building**.
 - Uses **algorithms that iteratively learn from data**, allowing computers to **discover hidden patterns** without being explicitly programmed.
+- Defined by **Arthur Samuel (1959)** as the **field of study that gives computers the ability to learn without being explicitly programmed**.
+- Example: In the **checkers experiment**, a machine improved its gameplay by analyzing **thousands of moves and positions**, identifying those that often led to **wins or losses**.
+  - If trained with only a few games (e.g., 10), the performance would drop drastically due to **insufficient exploration of possibilities**.
 
 ## **Applications of Machine Learning**
 
@@ -29,10 +32,13 @@
 
 1. **Supervised Learning**
    - Uses **labeled data** to train a model and **predict labels** for new data.
+   - **Most commonly used** in real-world applications, with **rapid advancements**.
 2. **Unsupervised Learning**
    - Works with **unlabeled data** to **identify patterns and groupings**.
 3. **Reinforcement Learning**
    - Agents learn to perform actions based on **trial-and-error experiences**.
+4. **Recommendation Systems**
+   - Often treated as a **hybrid category**, combining techniques from supervised and unsupervised learning.
 
 ### **Supervised Learning**
 
