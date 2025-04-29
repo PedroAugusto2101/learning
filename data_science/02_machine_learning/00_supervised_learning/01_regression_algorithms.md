@@ -28,6 +28,7 @@
 
 - The goal of regression is to find a function that best describes the relationship between input variables and a continuous target variable.
 - There are various regression algorithms, each suitable for different patterns and data characteristics.
+  ![img](../../img/Screenshot%20from%202025-04-29%2007-06-20.png)
 
 ### **Linear Regression**
 
@@ -64,8 +65,8 @@
   - **Least Squares:** Minimizes the sum of squared differences.
   - **Absolute Error Minimization:** More robust to outliers.
 
-![img](../img/Screenshot%20from%202025-03-31%2013-35-46.png)
-![img](../img/Screenshot%20from%202025-03-31%2013-37-46.png)
+![img](../../img/Screenshot%20from%202025-03-31%2013-35-46.png)
+![img](../../img/Screenshot%20from%202025-03-31%2013-37-46.png)
 
 ## **Final Notes**
 
