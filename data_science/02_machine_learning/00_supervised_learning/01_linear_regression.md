@@ -1,4 +1,4 @@
-# **Regression Algorithms**
+# **Linear Regression**
 
 ## **Introduction**
 
