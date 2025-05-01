@@ -33,7 +33,8 @@ code if necessary
 code if necessary
 ```
 
-O resumo deve ser do texto a seguir, passando para o inglês, adicionando informações importantes/relevantes e resumindo
-ou retirando informações não relevantes, deixando o resumo o mais rico e didático possível:
+O resumo deve ser do texto de rascunho, passando para o inglês, adicionando informações importantes/relevantes e resumindo
+ou retirando informações não relevantes, deixando o resumo o mais rico, estruturado e didático possível:
 
-Quero que me dê como resposta, apenas o código .md para eu copiar e colar no meu vscode.
+Quero que me dê como resposta, apenas o código .md completo para eu copiar e colar no meu vscode.
+E vou te passar o número do índice para você começar:
