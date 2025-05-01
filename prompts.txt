@@ -1,0 +1,39 @@
+------------------------------------------------------------------------------------------------------------------------
+MESCLAR CONTEÚDO NOVO COM CÓDIGO .md EXISTENTE
+------------------------------------------------------------------------------------------------------------------------
+Vou te passar o meu código .md atual com o resumo do respectivo conteúdo em ingles, e vou te passar um rascunho rápido
+de anotações que fiz estudando de uma fonte diferente esse conteúdo.
+Quero que você mescle ele no meu conteúdo .md em ingles, mantendo a ideia de ser resumido, adicionando informações
+importantes/relevantes e/ou resumindo informações desnecessárias.
+
+Segue código .md atual:
+
+Segue rascunho rápido com anotações que fiz:
+
+Quero que me dê como resposta, apenas o código .md para eu copiar e colar no meu vscode.
+
+------------------------------------------------------------------------------------------------------------------------
+CRIAR CÓDIGO .md DE RESUMO DE CONTEÚDO EM INGLÊS, ADICIONANDO INFORMAÇÕES RELEVANTES E RESUMINDO INFORMAÇÕES DESNECESSÁRIAS
+------------------------------------------------------------------------------------------------------------------------
+Crie para mim um resumo com base no padrão abaixo:
+
+# 0X. HEADING 1
+
+## 0X.00 Heading 2 
+- Topic if necessary
+
+```language
+code if necessary
+```
+
+### Heading 3
+- Topic if necessary
+
+```language
+code if necessary
+```
+
+O resumo deve ser do texto a seguir, passando para o inglês, adicionando informações importantes/relevantes e resumindo
+ou retirando informações não relevantes, deixando o resumo o mais rico e didático possível:
+
+Quero que me dê como resposta, apenas o código .md para eu copiar e colar no meu vscode.
