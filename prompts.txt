@@ -34,7 +34,8 @@ code if necessary
 ```
 
 O resumo deve ser do texto de rascunho, passando para o inglês, adicionando informações importantes/relevantes e resumindo
-ou retirando informações não relevantes, deixando o resumo o mais rico, estruturado e didático possível:
+ou retirando informações não relevantes, deixando o resumo o mais rico, estruturado e didático possível, e respondendo
+perguntas que eu deixei no rascunho e incorporando essas respostas ao resumo estruturado e organizado:
 
 Quero que me dê como resposta, apenas o código .md completo para eu copiar e colar no meu vscode.
 E vou te passar o número do índice para você começar:
