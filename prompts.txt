@@ -1,21 +1,29 @@
 ------------------------------------------------------------------------------------------------------------------------
 MESCLAR CONTEÚDO NOVO COM CÓDIGO .md EXISTENTE
 ------------------------------------------------------------------------------------------------------------------------
-Vou te passar o meu código .md atual com o resumo do respectivo conteúdo em ingles, e vou te passar um rascunho rápido
-de anotações que fiz estudando de uma fonte diferente esse conteúdo.
-Quero que você mescle ele no meu conteúdo .md em ingles, mantendo a ideia de ser resumido, adicionando informações
-importantes/relevantes e/ou resumindo informações desnecessárias.
+Vou te enviar dois conteúdos:
 
-Segue código .md atual:
+Um arquivo .md com meu resumo atual de um conteúdo em inglês.
 
-Segue rascunho rápido com anotações que fiz:
+Um rascunho com anotações rápidas que fiz estudando a mesma matéria por outra fonte.
 
-Quero que me dê como resposta, apenas o código .md para eu copiar e colar no meu vscode.
+Sua tarefa é mesclar esses dois, mantendo o estilo de resumo enxuto do .md, mas enriquecendo com as informações relevantes do rascunho.
+Se possível, resuma ou reescreva trechos redundantes ou desnecessários.
+
+Me responda apenas com o novo conteúdo final em .md, pronto para ser colado no meu VS Code – sem explicações, sem comentários adicionais.
+
+Agora, segue o conteúdo .md atual:
+
+[cole aqui o conteúdo]
+
+E aqui o rascunho com minhas anotações:
+
+[cole aqui o rascunho]
 
 ------------------------------------------------------------------------------------------------------------------------
 CRIAR CÓDIGO .md DE RESUMO DE CONTEÚDO EM INGLÊS, ADICIONANDO INFORMAÇÕES RELEVANTES E RESUMINDO INFORMAÇÕES DESNECESSÁRIAS
 ------------------------------------------------------------------------------------------------------------------------
-Crie para mim um resumo com base no padrão abaixo:
+Crie para mim um resumo seguindo o padrão abaixo:
 
 # 0X. HEADING 1
 
@@ -24,18 +32,15 @@ Crie para mim um resumo com base no padrão abaixo:
 
 ```language
 code if necessary
-```
 
 ### Heading 3
 - Topic if necessary
 
 ```language
 code if necessary
-```
 
-O resumo deve ser do texto de rascunho, passando para o inglês, adicionando informações importantes/relevantes e resumindo
-ou retirando informações não relevantes, deixando o resumo o mais rico, estruturado e didático possível, e respondendo
-perguntas que eu deixei no rascunho e incorporando essas respostas ao resumo estruturado e organizado:
+Baseie-se no texto do rascunho que vou fornecer, traduzindo-o para o inglês e enriquecendo-o com informações importantes/relevantes. Resuma ou remova detalhes desnecessários e garanta que o resumo seja o mais rico, estruturado e didático possível, respondendo às perguntas que deixei no rascunho (incorporando as respostas de forma integrada no conteúdo).
 
-Quero que me dê como resposta, apenas o código .md completo para eu copiar e colar no meu vscode.
-E vou te passar o número do índice para você começar:
+Retorne apenas o código completo em .md, sem explicações ou comentários adicionais, para que eu possa copiar e colar direto no VS Code.
+
+Vou agora te passar o número do índice para começar:
