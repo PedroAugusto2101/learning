@@ -21,6 +21,28 @@ E aqui o rascunho com minhas anotações:
 [cole aqui o rascunho]
 
 ------------------------------------------------------------------------------------------------------------------------
+MESCLAR CONTEÚDO NOVO COM CÓDIGO .md EXISTENTE
+------------------------------------------------------------------------------------------------------------------------
+Vou te enviar dois conteúdos:
+
+Um arquivo .md com meu resumo atual de um conteúdo em inglês.
+
+Uma transcrição com o conteúdo de uma vídeo aula que assistir, e no final, se eu tiver dúvidas, as dúvidas anotadas para você responder e integrar ao resumo.
+
+Sua tarefa é mesclar esses dois, mantendo o estilo de resumo enxuto do .md, mas enriquecendo com as informações relevantes do rascunho e deixando ele o mais rico, didático e explicativo possível.
+Se possível, resuma ou reescreva trechos redundantes ou desnecessários.
+
+Me responda apenas com o novo conteúdo final em .md, pronto para ser colado no meu VS Code – sem explicações, sem comentários adicionais.
+
+Agora, segue o conteúdo .md atual:
+
+[cole aqui o conteúdo]
+
+E aqui a transcrição com as possíveis dúvidas:
+
+[cole aqui o rascunho]
+
+------------------------------------------------------------------------------------------------------------------------
 CRIAR CÓDIGO .md DE RESUMO DE CONTEÚDO EM INGLÊS, ADICIONANDO INFORMAÇÕES RELEVANTES E RESUMINDO INFORMAÇÕES DESNECESSÁRIAS
 ------------------------------------------------------------------------------------------------------------------------
 Crie para mim um resumo seguindo o padrão abaixo:
