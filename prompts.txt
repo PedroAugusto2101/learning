@@ -45,6 +45,8 @@ Retorne apenas o código completo em .md, sem explicações ou comentários adic
 
 Vou agora te passar o número do índice para começar:
 
+Agora vou te passar o texto de rascunho:
+
 ------------------------------------------------------------------------------------------------------------------------
 CRIAR CÓDIGO .md DE TRANSCRIÇÃO DE CONTEÚDO EM INGLÊS, ADICIONANDO INFORMAÇÕES RELEVANTES E RESUMINDO INFORMAÇÕES DESNECESSÁRIAS
 ------------------------------------------------------------------------------------------------------------------------
