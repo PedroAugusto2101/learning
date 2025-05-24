@@ -21,7 +21,7 @@ E aqui o rascunho com minhas anotações:
 [cole aqui o rascunho]
 
 ------------------------------------------------------------------------------------------------------------------------
-MESCLAR CONTEÚDO NOVO COM CÓDIGO .md EXISTENTE
+MESCLAR TRANSCRIÇÃO NOVO COM CÓDIGO .md EXISTENTE
 ------------------------------------------------------------------------------------------------------------------------
 Vou te enviar dois conteúdos:
 
