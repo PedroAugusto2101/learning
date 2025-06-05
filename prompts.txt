@@ -10,7 +10,7 @@ Um rascunho com anotações rápidas que fiz estudando a mesma matéria por outr
 Sua tarefa é mesclar esses dois, mantendo o estilo de resumo enxuto do .md, mas enriquecendo com as informações relevantes do rascunho.
 Se possível, resuma ou reescreva trechos redundantes ou desnecessários.
 
-Me responda apenas com o novo conteúdo final em .md, pronto para ser colado no meu VS Code – sem explicações, sem comentários adicionais.
+Me responda apenas com o novo conteúdo final em .md em inglês, pronto para ser colado no meu VS Code – sem explicações, sem comentários adicionais.
 
 Agora, segue o conteúdo .md atual:
 
@@ -32,7 +32,7 @@ Uma transcrição com o conteúdo de uma vídeo aula que assistir, e no final, s
 Sua tarefa é mesclar esses dois, mantendo o estilo de resumo enxuto do .md, mas enriquecendo com as informações relevantes do rascunho e deixando ele o mais rico, didático e explicativo possível.
 Se possível, resuma ou reescreva trechos redundantes ou desnecessários.
 
-Me responda apenas com o novo conteúdo final em .md, pronto para ser colado no meu VS Code – sem explicações, sem comentários adicionais.
+Me responda apenas com o novo conteúdo final em .md em inglês, pronto para ser colado no meu VS Code – sem explicações, sem comentários adicionais.
 
 Agora, segue o conteúdo .md atual:
 
@@ -45,7 +45,7 @@ E aqui a transcrição com as possíveis dúvidas:
 ------------------------------------------------------------------------------------------------------------------------
 CRIAR CÓDIGO .md DE RESUMO DE CONTEÚDO EM INGLÊS, ADICIONANDO INFORMAÇÕES RELEVANTES E RESUMINDO INFORMAÇÕES DESNECESSÁRIAS
 ------------------------------------------------------------------------------------------------------------------------
-Crie para mim um resumo seguindo o padrão abaixo:
+Crie para mim um resumo em inglês seguindo o padrão abaixo:
 
 # 0X. HEADING 1
 
@@ -72,7 +72,7 @@ Agora vou te passar o texto de rascunho:
 ------------------------------------------------------------------------------------------------------------------------
 CRIAR CÓDIGO .md DE TRANSCRIÇÃO DE CONTEÚDO EM INGLÊS, ADICIONANDO INFORMAÇÕES RELEVANTES E RESUMINDO INFORMAÇÕES DESNECESSÁRIAS
 ------------------------------------------------------------------------------------------------------------------------
-Crie para mim um resumo seguindo o padrão abaixo:
+Crie para mim um resumo em inglês seguindo o padrão abaixo:
 
 # 0X. HEADING 1
 
