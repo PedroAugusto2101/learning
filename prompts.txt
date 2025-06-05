@@ -52,13 +52,11 @@ Crie para mim um resumo em inglês seguindo o padrão abaixo:
 ## 0X.00 Heading 2 
 - Topic if necessary
 
-```language
 code if necessary
 
 ### Heading 3
 - Topic if necessary
 
-```language
 code if necessary
 
 Baseie-se no texto do rascunho que vou fornecer, traduzindo-o para o inglês e enriquecendo-o com informações importantes/relevantes. Resuma ou remova detalhes desnecessários se tiver e garanta que o resumo seja o mais rico, estruturado e didático possível, respondendo às perguntas que deixei no rascunho (incorporando as respostas de forma integrada no conteúdo).
@@ -79,13 +77,11 @@ Crie para mim um resumo em inglês seguindo o padrão abaixo:
 ## 0X.00 Heading 2 
 - Topic if necessary
 
-```language
 code if necessary
 
 ### Heading 3
 - Topic if necessary
 
-```language
 code if necessary
 
 Baseie-se no texto de transcrição que vou fornecer, enriquecendo-o com informações importantes/relevantes. Resuma ou remova detalhes desnecessários se tiver e garanta que o resumo seja o mais rico, estruturado e didático possível.
