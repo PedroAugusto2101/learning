@@ -53,28 +53,48 @@ W · X = w₁X₁ + w₂X₂ + ... + wₙXₙ
 
 - This compact notation is equivalent to the expanded form and is widely used in machine learning.
 
-### 05.00.04 Terminology
+### 05.00.04 Vectorization
 
-- This model is called **multiple linear regression** (not multivariate regression, which refers to a different concept).
-- The case with one feature is called **univariate regression**.
+- **Vectorization** is a technique that allows you to write code that operates on entire vectors or arrays at once, rather than using explicit loops.
+- Vectorized code is shorter, easier to read, and much faster, especially for large n.
+- Libraries like NumPy in Python provide optimized functions (such as `np.dot()`) that perform vectorized operations efficiently.
+- Vectorization enables the use of parallel hardware, such as CPUs and GPUs, to accelerate computations. GPUs (Graphics Processing Units) are designed for parallel processing and can execute many operations simultaneously, making vectorized code run significantly faster than code using explicit loops.
 
-### 05.00.05 Implementation Example
+#### Example: Non-vectorized vs. Vectorized Implementation
 
 ```python
 import numpy as np
 
-# Feature vector for one example
-X = np.array([1416, 3, 2, 40])
-# Parameter vector
+# Parameters and features
 W = np.array([0.1, 4, 10, -2])
-# Bias term
+X = np.array([1416, 3, 2, 40])
 b = 80
 
-# Prediction
-y_pred = np.dot(W, X) + b
-print(y_pred)  # Output: predicted price
+# Non-vectorized (using a loop)
+y_pred = 0
+for j in range(len(W)):
+    y_pred += W[j] * X[j]
+y_pred += b
+print(y_pred)
+
+# Vectorized (using np.dot)
+y_pred_vec = np.dot(W, X) + b
+print(y_pred_vec)
 ```
 
-### 05.00.06 Next Steps
+- The vectorized version using `np.dot()` is both more concise and much faster, especially as the number of features increases.
 
-- To efficiently implement multiple linear regression, a technique called **vectorization** is used, which simplifies and accelerates computations.
+### 05.00.05 What is np.dot()?
+
+- `np.dot()` is a NumPy function that computes the dot product of two vectors (or matrices).
+- For vectors, it multiplies corresponding elements and sums the results, matching the mathematical definition of the dot product.
+- Example: `np.dot([a, b, c], [x, y, z])` computes `a*x + b*y + c*z`.
+
+### 05.00.06 Terminology
+
+- This model is called **multiple linear regression** (not multivariate regression, which refers to a different concept).
+- The case with one feature is called **univariate regression**.
+
+### 05.00.07 Next Steps
+
+- To efficiently implement multiple linear regression and other machine learning algorithms, always prefer vectorized operations when possible, leveraging libraries like NumPy and hardware acceleration from CPUs and GPUs.
