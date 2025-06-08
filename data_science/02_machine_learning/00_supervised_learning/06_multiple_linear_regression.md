@@ -55,10 +55,12 @@ W · X = w₁X₁ + w₂X₂ + ... + wₙXₙ
 
 ### 05.00.04 Vectorization
 
-- **Vectorization** is a technique that allows you to write code that operates on entire vectors or arrays at once, rather than using explicit loops.
+- **Vectorization** is a technique that allows you to perform operations on entire vectors or arrays at once, rather than using explicit loops.
 - Vectorized code is shorter, easier to read, and much faster, especially for large n.
 - Libraries like NumPy in Python provide optimized functions (such as `np.dot()`) that perform vectorized operations efficiently.
-- Vectorization enables the use of parallel hardware, such as CPUs and GPUs, to accelerate computations. GPUs (Graphics Processing Units) are designed for parallel processing and can execute many operations simultaneously, making vectorized code run significantly faster than code using explicit loops.
+- Vectorization leverages parallel hardware, such as CPUs and GPUs, to accelerate computations. Instead of processing each element one by one (as in a for-loop), vectorized operations can process many elements simultaneously.
+- For example, when computing the dot product of two vectors with 16 elements, a for-loop would process each multiplication and addition sequentially. In contrast, vectorized code can multiply all pairs in parallel and sum them efficiently using specialized hardware.
+- This efficiency becomes crucial when working with large datasets or models with many features, as is common in modern machine learning.
 
 #### Example: Non-vectorized vs. Vectorized Implementation
 
@@ -84,17 +86,49 @@ print(y_pred_vec)
 
 - The vectorized version using `np.dot()` is both more concise and much faster, especially as the number of features increases.
 
+#### Vectorized Parameter Updates
+
+- Vectorization is also used to efficiently update model parameters during training. For example, when updating weights in gradient descent:
+
+```python
+# Non-vectorized update
+for j in range(len(W)):
+    W[j] = W[j] - 0.1 * d[j]
+
+# Vectorized update
+W = W - 0.1 * d
+```
+
+- Here, `d` is the vector of derivatives (gradients) for each parameter. The vectorized update applies the operation to all parameters simultaneously, leveraging parallel computation.
+
+- For small numbers of features, the speedup may be modest, but for large models or datasets, vectorization can reduce computation time from hours to minutes.
+
 ### 05.00.05 What is np.dot()?
 
 - `np.dot()` is a NumPy function that computes the dot product of two vectors (or matrices).
 - For vectors, it multiplies corresponding elements and sums the results, matching the mathematical definition of the dot product.
 - Example: `np.dot([a, b, c], [x, y, z])` computes `a*x + b*y + c*z`.
 
-### 05.00.06 Terminology
+### 05.00.06 Vectorization in NumPy
+
+- In NumPy, vectorization means using array operations that apply to entire arrays or vectors at once, without explicit Python loops.
+- NumPy arrays are stored in contiguous memory and NumPy functions are implemented in optimized C code, allowing for fast execution.
+- Example: `W - 0.1 * d` subtracts `0.1 * d[j]` from each `W[j]` in parallel.
+- Vectorized operations are not only more concise but also take advantage of hardware acceleration, making them essential for efficient scientific computing and machine learning.
+
+### 05.00.07 Relation Between Vectorization and Embedding in LLMs
+
+- **Vectorization** refers to performing operations on entire vectors or arrays at once for computational efficiency.
+- **Embeddings** in the context of Large Language Models (LLMs) are vector representations of words, sentences, or other data. Each embedding is a vector in a high-dimensional space.
+- Vectorization is used to efficiently compute with these embeddings, such as calculating similarities (dot products) or updating parameters during training.
+- In summary, vectorization is a computational technique, while embeddings are data representations; vectorization enables fast operations on embeddings and other vectors in LLMs.
+
+### 05.00.08 Terminology
 
 - This model is called **multiple linear regression** (not multivariate regression, which refers to a different concept).
 - The case with one feature is called **univariate regression**.
 
-### 05.00.07 Next Steps
+### 05.00.09 Next Steps
 
 - To efficiently implement multiple linear regression and other machine learning algorithms, always prefer vectorized operations when possible, leveraging libraries like NumPy and hardware acceleration from CPUs and GPUs.
+- Practice using NumPy for vectorized operations, as it is a foundational skill for modern machine learning.
