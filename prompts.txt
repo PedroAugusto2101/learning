@@ -10,7 +10,7 @@ Um rascunho com anotações rápidas que fiz estudando a mesma matéria por outr
 Sua tarefa é mesclar esses dois, mantendo o estilo de resumo enxuto do .md, mas enriquecendo com as informações relevantes do rascunho.
 Se possível, resuma ou reescreva trechos redundantes ou desnecessários.
 
-Me responda apenas com o novo conteúdo final em .md em inglês, pronto para ser colado no meu VS Code – sem explicações, sem comentários adicionais.
+Retorne apenas o código completo em .md, em inglês, sem explicações ou comentários adicionais, para que eu possa copiar e colar direto no VS Code.
 
 Agora, segue o conteúdo .md atual:
 
@@ -32,7 +32,7 @@ Uma transcrição com o conteúdo de uma vídeo aula que assistir, e no final, s
 Sua tarefa é mesclar esses dois, mantendo o estilo de resumo enxuto do .md, mas enriquecendo com as informações relevantes do rascunho e deixando ele o mais rico, didático e explicativo possível.
 Se possível, resuma ou reescreva trechos redundantes ou desnecessários.
 
-Me responda apenas com o novo conteúdo final em .md em inglês, pronto para ser colado no meu VS Code – sem explicações, sem comentários adicionais.
+Retorne apenas o código completo em .md, em inglês, sem explicações ou comentários adicionais, para que eu possa copiar e colar direto no VS Code.
 
 Agora, segue o conteúdo .md atual:
 
