@@ -86,6 +86,37 @@ If we set parameters as w1 = 50, w2 = 0.1, and b = 50, the predicted price is un
 - **When in doubt:**  
   There is almost never harm in applying feature scaling. If unsure, it is recommended to scale your features.
 
-## 09.03 Summary
+## 09.03 Feature Engineering: Creating New Features
 
-Feature scaling is a simple yet powerful technique to improve the performance and convergence speed of many machine learning algorithms. By ensuring all features have comparable ranges, you help optimization algorithms like gradient descent find solutions more efficiently and improve the reliability
+The choice and creation of features can have a huge impact on your model's performance. Feature engineering involves using domain knowledge or intuition to design new features, often by transforming or combining existing ones, to make it easier for the learning algorithm to make accurate predictions.
+
+### Example: House Price Prediction
+
+Suppose you have two features for each house:
+
+- x1: Width (frontage) of the lot
+- x2: Depth of the lot
+
+A basic model might use both features separately:
+
+$$
+f(x) = w_1 x_1 + w_2 x_2 + b
+$$
+
+However, you might notice that the area of the land (width × depth) could be more predictive of price. You can create a new feature:
+
+- x3 = x1 × x2 (area of the plot)
+
+Now, your model can be:
+
+$$
+f(x) = w_1 x_1 + w_2 x_2 + w_3 x_3 + b
+$$
+
+This allows the model to learn whether frontage, depth, or area is most important for predicting price. Creating such new features is a core part of feature engineering and can significantly improve model performance.
+
+Feature engineering can also enable your model to fit not just straight lines, but curves and more complex, non-linear relationships in your data.
+
+## 09.04 Summary
+
+Feature scaling and feature engineering are essential steps in building effective machine learning models. Scaling ensures all features contribute equally to the optimization process, while engineering new features can unlock better predictive power by leveraging domain knowledge and intuition. Both steps help your algorithms learn more efficiently and make more
