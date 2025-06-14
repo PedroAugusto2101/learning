@@ -1,4 +1,4 @@
-# 09. Feature Scaling in Machine Learning
+# 09. Feature Engineering in Machine Learning
 
 ## 09.00 Understanding Feature Ranges and Parameter Values
 
