@@ -101,8 +101,24 @@ for i in range(num_iterations):
 - **Choice of Learning Rate:** Selecting an appropriate learning rate is crucial for efficient and stable convergence.
 - **Stopping Criteria:** Common criteria include a maximum number of iterations or when the change in cost function value falls below a threshold.
 
-## 04.03 Summary
+## 04.03 Monitoring Convergence
 
-Gradient Descent is an iterative algorithm for finding parameter values (`w`, `b`, etc.) that minimize a cost function `J`. By leveraging the direction and magnitude of the gradient, and controlling the step size with the learning rate, it efficiently navigates the parameter space toward a minimum. For linear regression, the cost function is convex, guaranteeing convergence to the global minimum. Batch gradient descent uses all training data at each step, ensuring stable progress. The learning rate must be chosen carefully: too small leads to slow progress, too large can cause divergence. As the minimum is approached, steps naturally become smaller, allowing the algorithm to settle at the minimum, making Gradient Descent a cornerstone of modern machine learning optimization.
+To determine if gradient descent is converging, plot the cost function $J$ (calculated on the training set) at each iteration. This plot, known as a learning curve, has the number of iterations on the horizontal axis and the cost $J$ on the vertical axis.
 
-![img](../../img/Screenshot%20from%202025-05-24%2020-29-42.png)
+- **Expected Behavior:** If gradient descent is working properly, the cost $J$ should decrease after every iteration. If $J$ increases at any point, the learning rate $\alpha$ may be too large or there may be a bug in the code.
+- **Convergence:** When the curve flattens out and $J$ no longer decreases significantly, gradient descent has likely converged.
+- **Automatic Convergence Test:** You can set a small threshold $\epsilon$ (e.g., 0.001). If the decrease in $J$ between iterations is less than $\epsilon$, you can declare convergence. However, visually inspecting the learning curve is often more reliable.
+
+- **Number of Iterations:** The number of iterations required for convergence varies widely depending on the application and data. It is difficult to predict in advance, so plotting the learning curve is a practical approach.
+
+## 04.04 Practical Use of Gradient Descent in Machine Learning
+
+- **Where is Gradient Descent Used?**  
+  Gradient descent is used in many machine learning models to optimize parameters, especially in linear regression, logistic regression, neural networks, and deep learning. It is the core optimization method for models where the cost function is differentiable.
+
+- **Is Gradient Descent already inside scikit-learn?**  
+  Yes, most scikit-learn models that require optimization (such as linear regression, logistic regression, and neural networks) use gradient descent or its variants internally. When you call `.fit()` on these models, scikit-learn handles the optimization process for you. You do not need to implement gradient descent manually unless you want to customize or understand the algorithm in detail.
+
+## 04.05 Summary
+
+Gradient Descent is an iterative algorithm for finding parameter values (`w`, `b`, etc.) that minimize a cost function `J`. By leveraging the direction and magnitude of the gradient, and controlling the step size with the learning rate, it efficiently navigates the parameter space toward a minimum. For linear regression, the cost function is convex, guaranteeing convergence to the global minimum. Batch gradient descent uses all training data at each step, ensuring stable progress. The learning rate must be chosen carefully: too small leads to slow progress, too large can cause divergence. Monitoring the learning curve helps verify convergence. Most modern machine learning libraries, like scikit-learn, implement gradient descent internally, making it easy
