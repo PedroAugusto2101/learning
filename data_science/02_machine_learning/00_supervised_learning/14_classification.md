@@ -2,97 +2,71 @@
 
 ## 03.00 Introduction to Classification
 
-- **Classification** is a type of supervised learning where the output variable, \( y \), can only take on one of a small set of possible values (categories), rather than any number in an infinite range.
-- **Examples of classification problems:**
-  - Determining if an email is spam (yes/no)
-  - Detecting if a financial transaction is fraudulent (fraud/not fraud)
-  - Classifying a tumor as malignant or benign
+- Classification vs. Regression
 
-### Binary Classification
+Classification is a type of supervised learning where the output variable, \( y \), can only take on one of a small set of possible values, rather than any value in an infinite range as in regression. Unlike linear regression, which predicts continuous numbers, classification predicts discrete categories.
 
-- **Binary classification**: Only two possible output classes (e.g., yes/no, true/false, 0/1).
-- Common conventions:
-  - 0 = negative class (e.g., not spam, not fraudulent, benign)
-  - 1 = positive class (e.g., spam, fraudulent, malignant)
-- The terms _class_ and _category_ are used interchangeably.
-- The choice of which class is 0 or 1 is arbitrary and can be swapped depending on the context.
+### 03.00.01 Examples of Classification Problems
 
-## 03.01 Linear Regression for Classification: Why It Fails
+- Spam detection: Is an email spam? (Yes/No)
+- Fraud detection: Is a financial transaction fraudulent? (Yes/No)
+- Medical diagnosis: Is a tumor malignant? (Yes/No)
 
-- **Linear regression** predicts continuous values, not categories.
-- Attempting to use linear regression for classification:
-  - Fit a straight line to the data.
-  - Use a threshold (e.g., 0.5): if output < 0.5, predict 0; if output ≥ 0.5, predict 1.
-- **Problem:** Linear regression can output values less than 0 or greater than 1, which do not make sense for classification.
-- **Sensitivity to outliers:** Adding a single outlier can shift the decision boundary (threshold) significantly, leading to poor classification.
+In all these cases, the output variable \( y \) can only be one of two possible values.
 
-### Example Visualization
+## 03.01 Binary Classification
 
-- Suppose we plot tumor size (x-axis) vs. label (y-axis: 0 for benign, 1 for malignant).
-- Linear regression fits a line, and a threshold (e.g., 0.5) is used to separate classes.
+- Definition and Terminology
 
-```python
-# Visualizing linear regression for classification
-import matplotlib.pyplot as plt
-import numpy as np
+Binary classification refers to problems where there are only two possible output classes or categories. The terms "class" and "category" are used interchangeably.
 
-# Example data
-X = np.array([1, 2, 3, 4, 5, 6, 7, 20])
-y = np.array([0, 0, 0, 0, 1, 1, 1, 1])
+### 03.01.01 Labeling Conventions
 
-# Fit linear regression
-coeffs = np.polyfit(X, y, 1)
-y_pred = np.polyval(coeffs, X)
+- Classes are often labeled as:
+  - No/Yes
+  - False/True
+  - 0/1 (common in computer science, with 0 = False, 1 = True)
 
-plt.scatter(X, y, color='blue', label='Data')
-plt.plot(X, y_pred, color='red', label='Linear Regression')
-plt.axhline(0.5, color='green', linestyle='--', label='Threshold 0.5')
-plt.xlabel('Tumor Size')
-plt.ylabel('Label (0=Benign, 1=Malignant)')
-plt.legend()
-plt.title('Linear Regression for Classification')
-plt.show()
-```
+The class labeled as 0 is called the **negative class**, and the class labeled as 1 is called the **positive class**. For example, in spam detection, a non-spam email is a negative example (0), while a spam email is a positive example (1). These labels do not imply good or bad, but rather the absence (0) or presence (1) of a property.
 
-- Adding an outlier (e.g., a data point far to the right) can shift the regression line and the threshold, leading to incorrect classifications.
+### 03.01.02 Arbitrary Assignment of Labels
 
-## 03.02 Logistic Regression: A Better Approach
+- The assignment of which class is 0 or 1 can be arbitrary and may vary depending on the problem or the engineer's choice.
 
-- **Logistic regression** is designed for classification, not regression, despite its name.
-- The output of logistic regression is always between 0 and 1, representing the probability that \( y = 1 \).
-- Logistic regression avoids the problems of linear regression for classification:
-  - Outputs are always valid probabilities.
-  - Less sensitive to outliers in the input space.
-- The decision boundary (threshold, e.g., 0.5) is more stable and meaningful.
+## 03.02 Building a Classification Algorithm
 
-### Key Points
+- Example: Tumor Classification
 
-- Logistic regression is widely used for binary classification problems.
-- The name "regression" is historical; logistic regression is fundamentally a classification algorithm.
+Suppose we want to classify tumors as malignant (1) or benign (0). We can plot tumor size on the horizontal axis and the label \( y \) on the vertical axis.
 
-```python
-# Visualizing logistic regression curve
-import matplotlib.pyplot as plt
-import numpy as np
-from scipy.special import expit
+### 03.02.01 Attempting Linear Regression for Classification
 
-X = np.linspace(0, 10, 100)
-# Example logistic regression parameters
-beta_0 = -5
-beta_1 = 1
-y_prob = expit(beta_0 + beta_1 * X)
+- Linear regression fits a straight line to the data and predicts continuous values, not just 0 or 1.
+- To adapt linear regression for classification, we can set a threshold (e.g., 0.5):
+  - If the model outputs a value below 0.5, predict \( y = 0 \) (benign).
+  - If the model outputs a value equal to or above 0.5, predict \( y = 1 \) (malignant).
 
-plt.plot(X, y_prob, color='red', label='Logistic Regression')
-plt.axhline(0.5, color='green', linestyle='--', label='Decision Boundary (0.5)')
-plt.xlabel('Tumor Size')
-plt.ylabel('Probability (Malignant)')
-plt.title('Logistic Regression Output')
-plt.legend()
-plt.show()
-```
+### 03.02.02 Problems with Linear Regression for Classification
 
-## 03.03 Terminology Recap
+- Adding an outlier (e.g., a new data point far to the right) can shift the best-fit line and the threshold, leading to incorrect classifications.
+- The decision boundary (the threshold dividing the classes) can move undesirably due to such outliers.
+- Linear regression can output values less than 0 or greater than 1, which are not valid class labels.
 
-- **Negative class (0):** Absence of the property (e.g., not spam, benign).
-- **Positive class (1):** Presence of the property (e.g., spam, malignant).
-- The assignment of 0 and 1 is arbitrary and can be reversed depending on the
+## 03.03 Logistic Regression: A Solution for Classification
+
+- Logistic regression is designed for classification, not regression, despite its name.
+- It always outputs values between 0 and 1, making it suitable for binary classification.
+- Logistic regression avoids the problems seen with linear regression, such as inappropriate shifting of the decision boundary.
+
+### 03.03.01 Why Use Logistic Regression?
+
+- Ensures output is always between 0 and 1.
+- Provides a clear probabilistic interpretation for classification.
+- Widely used for binary classification problems.
+
+## 03.04 Key Takeaways
+
+- Classification predicts discrete categories, not continuous values.
+- Binary classification deals with two possible classes, often labeled 0 (negative) and 1 (positive).
+- Linear regression is not suitable for classification due to its output range and sensitivity to outliers.
+- Logistic regression is the preferred algorithm for binary classification, providing stable and interpretable results.
