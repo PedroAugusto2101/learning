@@ -84,12 +84,10 @@ code if necessary
 
 code if necessary
 
-Baseie-se no texto de transcrição que vou fornecer, enriquecendo-o com informações importantes/relevantes. Resuma ou remova detalhes desnecessários se tiver e garanta que o resumo seja o mais rico, estruturado e didático possível.
-
-Baseie-se também nas perguntas de rascunho que eu anotei durante a vídeo aula e vou te mandar, respondendo às perguntas e incorporando as respostas de forma integrada no conteúdo.
+Baseie-se no texto da transcrição que vou fornecer, traduzindo-o para o inglês e enriquecendo-o com informações importantes/relevantes. Resuma ou remova detalhes desnecessários se tiver e garanta que o resumo seja o mais rico, estruturado e didático possível, respondendo às perguntas que deixei no rascunho (incorporando as respostas de forma integrada no conteúdo).
 
 Retorne apenas o código completo em .md, sem explicações ou comentários adicionais, para que eu possa copiar e colar direto no VS Code.
 
-Segue texto de transcrição com possíveis dúvidas:
+Vou agora te passar o número do índice para começar:
 
-[Cole o texto de transcrição com as dúvidas aqui]
+Agora vou te passar o texto de transcrição:
