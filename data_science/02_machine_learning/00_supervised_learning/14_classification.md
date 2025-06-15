@@ -4,7 +4,7 @@
 
 - Classification vs. Regression
 
-Classification is a type of supervised learning where the output variable, \( y \), can only take on one of a small set of possible values, rather than any value in an infinite range as in regression. Unlike linear regression, which predicts continuous numbers, classification predicts discrete categories.
+Classification is a type of supervised learning where the output variable \( y \) can only take on one of a small set of possible values, unlike regression, which predicts continuous values. Classification predicts discrete categories, such as "spam" or "not spam," rather than any number in an infinite range.
 
 ### 03.00.01 Examples of Classification Problems
 
@@ -18,7 +18,7 @@ In all these cases, the output variable \( y \) can only be one of two possible 
 
 - Definition and Terminology
 
-Binary classification refers to problems where there are only two possible output classes or categories. The terms "class" and "category" are used interchangeably.
+Binary classification refers to problems with only two possible output classes or categories. The terms "class" and "category" are used interchangeably.
 
 ### 03.01.01 Labeling Conventions
 
@@ -27,7 +27,7 @@ Binary classification refers to problems where there are only two possible outpu
   - False/True
   - 0/1 (common in computer science, with 0 = False, 1 = True)
 
-The class labeled as 0 is called the **negative class**, and the class labeled as 1 is called the **positive class**. For example, in spam detection, a non-spam email is a negative example (0), while a spam email is a positive example (1). These labels do not imply good or bad, but rather the absence (0) or presence (1) of a property.
+The class labeled as 0 is called the **negative class**, and the class labeled as 1 is called the **positive class**. For example, in spam detection, a non-spam email is a negative example (0), while a spam email is a positive example (1). These labels indicate the absence (0) or presence (1) of a property, not good or bad.
 
 ### 03.01.02 Arbitrary Assignment of Labels
 
@@ -54,19 +54,58 @@ Suppose we want to classify tumors as malignant (1) or benign (0). We can plot t
 
 ## 03.03 Logistic Regression: A Solution for Classification
 
-- Logistic regression is designed for classification, not regression, despite its name.
-- It always outputs values between 0 and 1, making it suitable for binary classification.
-- Logistic regression avoids the problems seen with linear regression, such as inappropriate shifting of the decision boundary.
+Logistic regression is one of the most widely used algorithms for classification. Despite its name, it is used for classification, not regression.
 
-### 03.03.01 Why Use Logistic Regression?
+### 03.03.01 The Sigmoid (Logistic) Function
 
-- Ensures output is always between 0 and 1.
-- Provides a clear probabilistic interpretation for classification.
-- Widely used for binary classification problems.
+- The core of logistic regression is the **Sigmoid function** (also called the logistic function), which maps any real-valued number to a value between 0 and 1.
+- The Sigmoid function is defined as:
+
+  ```
+  math
+  g(z) = 1 / (1 + e^{-z})
+  ```
+
+  where \( e \) is the mathematical constant (~2.718).
+
+- The Sigmoid function produces an S-shaped curve. For large positive \( z \), \( g(z) \) approaches 1; for large negative \( z \), \( g(z) \) approaches 0; and for \( z = 0 \), \( g(z) = 0.5 \).
+
+### 03.03.02 Logistic Regression Model
+
+- Logistic regression combines a linear function and the Sigmoid function:
+
+  ```
+  math
+  z = w \cdot x + b
+  f(x) = g(z) = 1 / (1 + e^{-z})
+  ```
+
+- The model takes input features \( x \), computes \( z \) as a linear combination of the features, and then applies the Sigmoid function to output a value between 0 and 1.
+
+### 03.03.03 Interpreting Logistic Regression Output
+
+- The output of logistic regression, \( f(x) \), can be interpreted as the probability that the label \( y \) is 1 given the input \( x \).
+- For example, if \( f(x) = 0.7 \), the model predicts a 70% chance that \( y = 1 \) (e.g., the tumor is malignant).
+- Since \( y \) must be either 0 or 1, the probability that \( y = 0 \) is \( 1 - f(x) \). If the probability of \( y = 1 \) is 0.7, then the probability of \( y = 0 \) is 0.3.
+
+- In notation, you may see:
+
+  ```
+  math
+  f(x) = P(y = 1 \mid x; w, b)
+  ```
+
+  where \( w \) and \( b \) are model parameters.
+
+### 03.03.04 Practical Use and Applications
+
+- Logistic regression is widely used in real-world applications, such as medical diagnosis and online advertising.
+- It provides a clear probabilistic interpretation and stable decision boundaries, avoiding the pitfalls of linear regression for classification.
 
 ## 03.04 Key Takeaways
 
 - Classification predicts discrete categories, not continuous values.
 - Binary classification deals with two possible classes, often labeled 0 (negative) and 1 (positive).
 - Linear regression is not suitable for classification due to its output range and sensitivity to outliers.
-- Logistic regression is the preferred algorithm for binary classification, providing stable and interpretable results.
+- Logistic regression uses the Sigmoid function to output probabilities between 0 and 1, making it ideal for binary classification.
+- The output of logistic regression can be interpreted as the probability of the positive class, providing a meaningful and
