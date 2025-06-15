@@ -88,10 +88,10 @@ Baseie-se no texto de transcrição que vou fornecer, enriquecendo-o com informa
 
 Baseie-se também nas perguntas de rascunho que eu anotei durante a vídeo aula e vou te mandar, respondendo às perguntas e incorporando as respostas de forma integrada no conteúdo.
 
+Sempre que um tema visual for abordado (como por exemplo: regressão linear, redes neurais, distribuição normal, clustering, etc), **inclua automaticamente um gráfico explicativo** com código Python que gere esse gráfico (usando bibliotecas como `matplotlib`, `seaborn` ou `plotly`), facilitando a compreensão visual do conceito.
+
 Retorne apenas o código completo em .md, sem explicações ou comentários adicionais, para que eu possa copiar e colar direto no VS Code.
 
-Vou agora te passar o número do índice para começar:
+Segue texto de transcrição com possíveis dúvidas:
 
-Agora vou te passar o texto de transcrição:
-
-Agora vou te passar o rascunho com as perguntas a serem respondidas e integradas no resumo:
+[Cole o texto de transcrição com as dúvidas aqui]
