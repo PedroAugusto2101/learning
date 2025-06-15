@@ -97,10 +97,30 @@ Logistic regression is one of the most widely used algorithms for classification
 
   where \( w \) and \( b \) are model parameters.
 
-### 03.03.04 Practical Use and Applications
+### 03.03.04 From Probability to Prediction: Threshold and Decision Boundary
+
+- To make a final prediction, a threshold is set (commonly 0.5):
+  - If \( f(x) \geq 0.5 \), predict \( \hat{y} = 1 \).
+  - If \( f(x) < 0.5 \), predict \( \hat{y} = 0 \).
+- This threshold translates to the condition \( w \cdot x + b \geq 0 \) for predicting 1, and \( w \cdot x + b < 0 \) for predicting 0.
+
+#### Decision Boundary
+
+- The **decision boundary** is the set of points where \( w \cdot x + b = 0 \). It separates the feature space into regions where the model predicts different classes.
+- For two features (\( x_1, x_2 \)), the decision boundary is a line (e.g., \( x_1 + x_2 = 3 \) if \( w_1 = 1, w_2 = 1, b = -3 \)).
+- Points on one side of the boundary are classified as 1, and on the other side as 0.
+
+#### Nonlinear Decision Boundaries
+
+- By including polynomial features (e.g., \( x_1^2, x_2^2, x_1 x_2 \)), logistic regression can model more complex, nonlinear decision boundaries.
+- For example, with \( z = x_1^2 + x_2^2 - 1 \), the decision boundary \( x_1^2 + x_2^2 = 1 \) is a circle.
+- Higher-order polynomials allow for even more complex boundaries, such as ellipses or irregular shapes, enabling logistic regression to fit complex data distributions.
+
+### 03.03.05 Practical Use and Applications
 
 - Logistic regression is widely used in real-world applications, such as medical diagnosis and online advertising.
 - It provides a clear probabilistic interpretation and stable decision boundaries, avoiding the pitfalls of linear regression for classification.
+- The decision boundary can be visualized and interpreted, helping to understand how the model separates classes.
 
 ## 03.04 Key Takeaways
 
@@ -108,4 +128,5 @@ Logistic regression is one of the most widely used algorithms for classification
 - Binary classification deals with two possible classes, often labeled 0 (negative) and 1 (positive).
 - Linear regression is not suitable for classification due to its output range and sensitivity to outliers.
 - Logistic regression uses the Sigmoid function to output probabilities between 0 and 1, making it ideal for binary classification.
-- The output of logistic regression can be interpreted as the probability of the positive class, providing a meaningful and
+- The output of logistic regression can be interpreted as the probability of the positive class.
+- The decision boundary, defined by \( w \cdot x + b = 0 \), separates the feature space into regions for each class. With polynomial features, logistic regression can model complex, nonlinear
