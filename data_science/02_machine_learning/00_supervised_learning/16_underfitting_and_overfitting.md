@@ -6,8 +6,8 @@
 
 ### What are Underfitting and Overfitting?
 
-- **Underfitting** occurs when a model is too simple to capture the underlying patterns in the data, resulting in poor performance even on the training set. This is also known as **high bias**.
-- **Overfitting** happens when a model is too complex and fits the training data too closely, including noise and outliers, leading to poor generalization on new, unseen data. This is referred to as **high variance**.
+- **Underfitting** occurs when a model is too simple to capture the underlying patterns in the data, resulting in poor performance even on the training set (**high bias**).
+- **Overfitting** happens when a model is too complex and fits the training data too closely, including noise and outliers, leading to poor generalization on new, unseen data (**high variance**).
 
 ## 16.01 Examples in Regression
 
@@ -45,11 +45,38 @@
 
 ## 16.05 Addressing Underfitting and Overfitting
 
-- To achieve a model that is "just right," it is important to select the appropriate model complexity and features.
-- In upcoming lessons, techniques such as **regularization** will be introduced to help control overfitting and improve model generalization.
+### Strategies to Address Overfitting
+
+1. **Collect More Training Data**
+
+   - Increasing the size of the training set helps the model learn a less complex, more generalizable function, especially when using complex models with many features.
+   - More data reduces the risk of the model fitting noise or outliers.
+
+2. **Feature Selection**
+
+   - Reducing the number of features (e.g., using only the most relevant ones) can help prevent overfitting, especially when the dataset is small relative to the number of features.
+   - Feature selection can be done manually using domain knowledge or automatically using algorithms.
+   - Note: Removing features may discard useful information, so this method should be used thoughtfully.
+
+3. **Regularization**
+   - Regularization techniques penalize large parameter values, encouraging the model to keep weights small and thus reducing the influence of less relevant features.
+   - Regularization allows you to keep all features but limits their impact, helping to prevent overfitting without discarding information.
+   - Typically, regularization is applied to the weights (w₁, w₂, ..., wₙ), not necessarily to the bias term (b).
+   - Regularization is a widely used and effective method, especially in models like linear regression, logistic regression, and neural networks.
+
+### Practical Application
+
+- In practice, regularization is often the preferred method for controlling overfitting, as it allows the use of all available features while still promoting generalization.
+- Feature selection and collecting more data are also valuable, but may not always be feasible.
+
+### Interactive Learning
+
+- Labs and interactive tools can help visualize overfitting and experiment with different strategies, such as adding data or selecting features, to build intuition about these concepts.
 
 ## 16.06 Summary
 
 - **Underfitting (High Bias):** Model too simple, poor fit to training data.
 - **Overfitting (High Variance):** Model too complex, fits training data too closely, poor generalization.
--
+- **Generalization:** The ability of a model to perform well on new, unseen data.
+- **Addressing Overfitting:** Collect more data, select relevant features, or use regularization to control model complexity.
+- **Next Steps:** Learn the mathematical formulation and practical application of regularization to further
