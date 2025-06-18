@@ -64,10 +64,31 @@
    - Typically, regularization is applied to the weights (w₁, w₂, ..., wₙ), not necessarily to the bias term (b).
    - Regularization is a widely used and effective method, especially in models like linear regression, logistic regression, and neural networks.
 
-### Practical Application
+### 16.05.01 How Regularization Works
 
-- In practice, regularization is often the preferred method for controlling overfitting, as it allows the use of all available features while still promoting generalization.
-- Feature selection and collecting more data are also valuable, but may not always be feasible.
+- Regularization modifies the cost function by adding a penalty term to discourage large weights.
+- For linear regression, the regularized cost function is:
+
+  ```
+  math
+  J(w, b) = \frac{1}{2m} \sum_{i=1}^{m} (f(x^{(i)}) - y^{(i)})^2 + \frac{\lambda}{2m} \sum_{j=1}^{n} w_j^2
+  ```
+
+  - The first term measures the fit to the training data (mean squared error).
+  - The second term is the regularization term, penalizing large weights.
+  - λ (lambda) is the regularization parameter that controls the trade-off between fitting the data and keeping weights small.
+
+- If λ = 0, there is no regularization, and the model may overfit.
+- If λ is very large, the weights are forced to be close to zero, leading to underfitting.
+- The best results are achieved with a λ value that is "just right," balancing both objectives.
+
+- By convention, regularization is usually applied only to the weights (w), not the bias (b), as penalizing b has little effect in practice.
+
+### 16.05.02 Practical Implications
+
+- Regularization is especially useful when there are many features and it is unclear which are most important.
+- It allows the use of all features while reducing the risk of overfitting.
+- The value of λ should be chosen carefully, often through model selection techniques.
 
 ### Interactive Learning
 
@@ -79,4 +100,5 @@
 - **Overfitting (High Variance):** Model too complex, fits training data too closely, poor generalization.
 - **Generalization:** The ability of a model to perform well on new, unseen data.
 - **Addressing Overfitting:** Collect more data, select relevant features, or use regularization to control model complexity.
-- **Next Steps:** Learn the mathematical formulation and practical application of regularization to further
+- **Regularization:** Adds a penalty to the cost function to keep weights small and reduce overfitting.
+- **Next Steps:** Learn the mathematical formulation and practical application of regularization to further improve
