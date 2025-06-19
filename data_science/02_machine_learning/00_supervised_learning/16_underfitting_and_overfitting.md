@@ -84,7 +84,32 @@
 
 - By convention, regularization is usually applied only to the weights (w), not the bias (b), as penalizing b has little effect in practice.
 
-### 16.05.02 Practical Implications
+### 16.05.02 Gradient Descent with Regularization
+
+- To minimize the regularized cost function, gradient descent is used with modified update rules.
+- For each weight \( w_j \):
+
+  ```
+  math
+  w_j := w_j - \alpha \left( \frac{1}{m} \sum_{i=1}^{m} (f(x^{(i)}) - y^{(i)}) x_j^{(i)} + \frac{\lambda}{m} w_j \right)
+  ```
+
+- For the bias term \( b \):
+
+  ```
+  math
+  b := b - \alpha \left( \frac{1}{m} \sum_{i=1}^{m} (f(x^{(i)}) - y^{(i)}) \right)
+  ```
+
+- The regularization term \( \frac{\lambda}{m} w_j \) in the update for \( w_j \) causes the weights to shrink slightly on each iteration, discouraging large values and reducing overfitting.
+- The update for \( b \) remains unchanged, as regularization is not applied to the bias.
+
+### 16.05.03 Intuition Behind Regularization Updates
+
+- On each iteration, the weights are multiplied by a factor slightly less than 1, effectively shrinking them.
+- This shrinkage helps prevent the model from fitting noise in the data, promoting simpler and more generalizable models.
+
+### 16.05.04 Practical Implications
 
 - Regularization is especially useful when there are many features and it is unclear which are most important.
 - It allows the use of all features while reducing the risk of overfitting.
@@ -100,5 +125,5 @@
 - **Overfitting (High Variance):** Model too complex, fits training data too closely, poor generalization.
 - **Generalization:** The ability of a model to perform well on new, unseen data.
 - **Addressing Overfitting:** Collect more data, select relevant features, or use regularization to control model complexity.
-- **Regularization:** Adds a penalty to the cost function to keep weights small and reduce overfitting.
-- **Next Steps:** Learn the mathematical formulation and practical application of regularization to further improve
+- **Regularization:** Adds a penalty to the cost function to keep weights small and reduce overfitting. Gradient descent with regularization shrinks weights on each iteration.
+- **Next Steps:** Learn how to apply regularization to logistic regression and further improve model performance.
